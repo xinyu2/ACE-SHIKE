@@ -1,0 +1,1130 @@
+123
+Files already downloaded and verified
+10847
+Files already downloaded and verified
+Adjusting learning rate of group 0 to 2.5000e-02.
+Adjusting learning rate of group 0 to 3.7500e-02.
+Epoch: [0][ 0/85]	Time  3.248 ( 3.248)	Data  0.534 ( 0.534)	Loss 3.1756e+01 (3.1756e+01)	Acc@1   1.56 (  1.56)	Acc@5   5.47 (  5.47)
+Test: [ 0/79]	Time  1.235 ( 1.235)	Loss 5.4762e+00 (5.4762e+00)	Acc@1   3.91 (  3.91)	Acc@5  11.72 ( 11.72)
+ * Acc@1 2.250 Acc@5 8.330
+Adjusting learning rate of group 0 to 5.0000e-02.
+Epoch: [1][ 0/85]	Time  1.346 ( 1.346)	Data  1.281 ( 1.281)	Loss 1.3047e+01 (1.3047e+01)	Acc@1   6.25 (  6.25)	Acc@5  14.84 ( 14.84)
+Test: [ 0/79]	Time  0.928 ( 0.928)	Loss 5.7086e+00 (5.7086e+00)	Acc@1   2.34 (  2.34)	Acc@5  11.72 ( 11.72)
+ * Acc@1 2.180 Acc@5 8.760
+Adjusting learning rate of group 0 to 7.5000e-02.
+Epoch: [2][ 0/85]	Time  1.028 ( 1.028)	Data  0.966 ( 0.966)	Loss 1.2300e+01 (1.2300e+01)	Acc@1  12.50 ( 12.50)	Acc@5  32.03 ( 32.03)
+Test: [ 0/79]	Time  0.939 ( 0.939)	Loss 5.7704e+00 (5.7704e+00)	Acc@1   1.56 (  1.56)	Acc@5   7.81 (  7.81)
+ * Acc@1 2.220 Acc@5 9.370
+Adjusting learning rate of group 0 to 1.0000e-01.
+Epoch: [3][ 0/85]	Time  1.027 ( 1.027)	Data  0.962 ( 0.962)	Loss 1.2764e+01 (1.2764e+01)	Acc@1   9.38 (  9.38)	Acc@5  24.22 ( 24.22)
+Test: [ 0/79]	Time  0.917 ( 0.917)	Loss 5.5536e+00 (5.5536e+00)	Acc@1   4.69 (  4.69)	Acc@5  19.53 ( 19.53)
+ * Acc@1 3.810 Acc@5 12.510
+Adjusting learning rate of group 0 to 1.2500e-01.
+Epoch: [4][ 0/85]	Time  1.048 ( 1.048)	Data  0.981 ( 0.981)	Loss 1.2553e+01 (1.2553e+01)	Acc@1  11.72 ( 11.72)	Acc@5  28.12 ( 28.12)
+Test: [ 0/79]	Time  1.218 ( 1.218)	Loss 5.3913e+00 (5.3913e+00)	Acc@1   4.69 (  4.69)	Acc@5  15.62 ( 15.62)
+ * Acc@1 3.920 Acc@5 13.650
+Adjusting learning rate of group 0 to 1.5000e-01.
+Epoch: [5][ 0/85]	Time  1.048 ( 1.048)	Data  0.982 ( 0.982)	Loss 1.2287e+01 (1.2287e+01)	Acc@1  10.94 ( 10.94)	Acc@5  31.25 ( 31.25)
+Test: [ 0/79]	Time  1.216 ( 1.216)	Loss 5.7704e+00 (5.7704e+00)	Acc@1   5.47 (  5.47)	Acc@5  15.62 ( 15.62)
+ * Acc@1 5.180 Acc@5 15.870
+Adjusting learning rate of group 0 to 1.4999e-01.
+Epoch: [6][ 0/85]	Time  1.367 ( 1.367)	Data  1.306 ( 1.306)	Loss 1.2637e+01 (1.2637e+01)	Acc@1  10.94 ( 10.94)	Acc@5  26.56 ( 26.56)
+Test: [ 0/79]	Time  0.917 ( 0.917)	Loss 5.7821e+00 (5.7821e+00)	Acc@1   2.34 (  2.34)	Acc@5  14.06 ( 14.06)
+ * Acc@1 5.610 Acc@5 16.490
+Adjusting learning rate of group 0 to 1.4995e-01.
+Epoch: [7][ 0/85]	Time  1.038 ( 1.038)	Data  0.977 ( 0.977)	Loss 1.1568e+01 (1.1568e+01)	Acc@1  15.62 ( 15.62)	Acc@5  30.47 ( 30.47)
+Test: [ 0/79]	Time  0.924 ( 0.924)	Loss 5.2324e+00 (5.2324e+00)	Acc@1   6.25 (  6.25)	Acc@5  21.09 ( 21.09)
+ * Acc@1 6.280 Acc@5 18.980
+Adjusting learning rate of group 0 to 1.4989e-01.
+Epoch: [8][ 0/85]	Time  1.349 ( 1.349)	Data  1.286 ( 1.286)	Loss 1.1772e+01 (1.1772e+01)	Acc@1  14.84 ( 14.84)	Acc@5  38.28 ( 38.28)
+Test: [ 0/79]	Time  0.922 ( 0.922)	Loss 5.2825e+00 (5.2825e+00)	Acc@1   6.25 (  6.25)	Acc@5  19.53 ( 19.53)
+ * Acc@1 8.230 Acc@5 22.370
+Adjusting learning rate of group 0 to 1.4981e-01.
+Epoch: [9][ 0/85]	Time  1.364 ( 1.364)	Data  1.304 ( 1.304)	Loss 1.1606e+01 (1.1606e+01)	Acc@1  10.94 ( 10.94)	Acc@5  32.03 ( 32.03)
+Test: [ 0/79]	Time  0.923 ( 0.923)	Loss 5.3151e+00 (5.3151e+00)	Acc@1   7.81 (  7.81)	Acc@5  21.09 ( 21.09)
+ * Acc@1 7.420 Acc@5 20.970
+Adjusting learning rate of group 0 to 1.4970e-01.
+Epoch: [10][ 0/85]	Time  1.356 ( 1.356)	Data  1.294 ( 1.294)	Loss 1.0859e+01 (1.0859e+01)	Acc@1  17.97 ( 17.97)	Acc@5  40.62 ( 40.62)
+Test: [ 0/79]	Time  1.244 ( 1.244)	Loss 4.8476e+00 (4.8476e+00)	Acc@1  14.06 ( 14.06)	Acc@5  34.38 ( 34.38)
+ * Acc@1 9.170 Acc@5 26.420
+Adjusting learning rate of group 0 to 1.4957e-01.
+Epoch: [11][ 0/85]	Time  1.364 ( 1.364)	Data  1.302 ( 1.302)	Loss 1.0736e+01 (1.0736e+01)	Acc@1  16.41 ( 16.41)	Acc@5  35.94 ( 35.94)
+Test: [ 0/79]	Time  1.257 ( 1.257)	Loss 5.0767e+00 (5.0767e+00)	Acc@1   7.03 (  7.03)	Acc@5  22.66 ( 22.66)
+ * Acc@1 10.670 Acc@5 26.110
+Adjusting learning rate of group 0 to 1.4941e-01.
+Epoch: [12][ 0/85]	Time  1.373 ( 1.373)	Data  1.312 ( 1.312)	Loss 1.0362e+01 (1.0362e+01)	Acc@1  22.66 ( 22.66)	Acc@5  44.53 ( 44.53)
+Test: [ 0/79]	Time  1.231 ( 1.231)	Loss 4.8943e+00 (4.8943e+00)	Acc@1  14.84 ( 14.84)	Acc@5  27.34 ( 27.34)
+ * Acc@1 9.760 Acc@5 23.420
+Adjusting learning rate of group 0 to 1.4923e-01.
+Epoch: [13][ 0/85]	Time  1.337 ( 1.337)	Data  1.272 ( 1.272)	Loss 1.0665e+01 (1.0665e+01)	Acc@1  17.97 ( 17.97)	Acc@5  48.44 ( 48.44)
+Test: [ 0/79]	Time  0.913 ( 0.913)	Loss 4.4688e+00 (4.4688e+00)	Acc@1  14.06 ( 14.06)	Acc@5  34.38 ( 34.38)
+ * Acc@1 10.090 Acc@5 26.880
+Adjusting learning rate of group 0 to 1.4902e-01.
+Epoch: [14][ 0/85]	Time  1.037 ( 1.037)	Data  0.971 ( 0.971)	Loss 1.0029e+01 (1.0029e+01)	Acc@1  17.97 ( 17.97)	Acc@5  53.12 ( 53.12)
+Test: [ 0/79]	Time  1.227 ( 1.227)	Loss 4.8102e+00 (4.8102e+00)	Acc@1  12.50 ( 12.50)	Acc@5  25.00 ( 25.00)
+ * Acc@1 11.630 Acc@5 29.070
+Adjusting learning rate of group 0 to 1.4879e-01.
+Epoch: [15][ 0/85]	Time  1.362 ( 1.362)	Data  1.296 ( 1.296)	Loss 9.4816e+00 (9.4816e+00)	Acc@1  28.12 ( 28.12)	Acc@5  52.34 ( 52.34)
+Test: [ 0/79]	Time  1.235 ( 1.235)	Loss 4.8306e+00 (4.8306e+00)	Acc@1   9.38 (  9.38)	Acc@5  35.16 ( 35.16)
+ * Acc@1 12.970 Acc@5 33.230
+Adjusting learning rate of group 0 to 1.4854e-01.
+Epoch: [16][ 0/85]	Time  1.367 ( 1.367)	Data  1.305 ( 1.305)	Loss 9.5877e+00 (9.5877e+00)	Acc@1  23.44 ( 23.44)	Acc@5  56.25 ( 56.25)
+Test: [ 0/79]	Time  0.923 ( 0.923)	Loss 4.6858e+00 (4.6858e+00)	Acc@1  14.06 ( 14.06)	Acc@5  38.28 ( 38.28)
+ * Acc@1 13.140 Acc@5 34.010
+Adjusting learning rate of group 0 to 1.4827e-01.
+Epoch: [17][ 0/85]	Time  1.030 ( 1.030)	Data  0.969 ( 0.969)	Loss 8.7187e+00 (8.7187e+00)	Acc@1  29.69 ( 29.69)	Acc@5  64.84 ( 64.84)
+Test: [ 0/79]	Time  0.911 ( 0.911)	Loss 4.4389e+00 (4.4389e+00)	Acc@1  16.41 ( 16.41)	Acc@5  42.19 ( 42.19)
+ * Acc@1 14.810 Acc@5 37.110
+Adjusting learning rate of group 0 to 1.4797e-01.
+Epoch: [18][ 0/85]	Time  1.041 ( 1.041)	Data  0.979 ( 0.979)	Loss 8.9300e+00 (8.9300e+00)	Acc@1  32.03 ( 32.03)	Acc@5  57.03 ( 57.03)
+Test: [ 0/79]	Time  0.917 ( 0.917)	Loss 4.5596e+00 (4.5596e+00)	Acc@1  13.28 ( 13.28)	Acc@5  26.56 ( 26.56)
+ * Acc@1 13.230 Acc@5 31.750
+Adjusting learning rate of group 0 to 1.4764e-01.
+Epoch: [19][ 0/85]	Time  1.339 ( 1.339)	Data  1.279 ( 1.279)	Loss 8.6084e+00 (8.6084e+00)	Acc@1  26.56 ( 26.56)	Acc@5  60.94 ( 60.94)
+Test: [ 0/79]	Time  0.922 ( 0.922)	Loss 4.0752e+00 (4.0752e+00)	Acc@1  18.75 ( 18.75)	Acc@5  43.75 ( 43.75)
+ * Acc@1 15.810 Acc@5 36.890
+Adjusting learning rate of group 0 to 1.4730e-01.
+Epoch: [20][ 0/85]	Time  1.037 ( 1.037)	Data  0.973 ( 0.973)	Loss 1.0132e+01 (1.0132e+01)	Acc@1  20.31 ( 20.31)	Acc@5  57.03 ( 57.03)
+Test: [ 0/79]	Time  0.924 ( 0.924)	Loss 3.8656e+00 (3.8656e+00)	Acc@1  21.09 ( 21.09)	Acc@5  51.56 ( 51.56)
+ * Acc@1 16.740 Acc@5 41.080
+Adjusting learning rate of group 0 to 1.4693e-01.
+Epoch: [21][ 0/85]	Time  1.369 ( 1.369)	Data  1.305 ( 1.305)	Loss 9.0211e+00 (9.0211e+00)	Acc@1  28.91 ( 28.91)	Acc@5  63.28 ( 63.28)
+Test: [ 0/79]	Time  1.258 ( 1.258)	Loss 4.1529e+00 (4.1529e+00)	Acc@1  14.84 ( 14.84)	Acc@5  44.53 ( 44.53)
+ * Acc@1 17.210 Acc@5 41.930
+Adjusting learning rate of group 0 to 1.4653e-01.
+Epoch: [22][ 0/85]	Time  1.351 ( 1.351)	Data  1.287 ( 1.287)	Loss 7.7404e+00 (7.7404e+00)	Acc@1  34.38 ( 34.38)	Acc@5  64.84 ( 64.84)
+Test: [ 0/79]	Time  1.246 ( 1.246)	Loss 3.9015e+00 (3.9015e+00)	Acc@1  17.97 ( 17.97)	Acc@5  42.97 ( 42.97)
+ * Acc@1 16.250 Acc@5 39.930
+Adjusting learning rate of group 0 to 1.4612e-01.
+Epoch: [23][ 0/85]	Time  1.352 ( 1.352)	Data  1.288 ( 1.288)	Loss 8.3447e+00 (8.3447e+00)	Acc@1  28.12 ( 28.12)	Acc@5  67.97 ( 67.97)
+Test: [ 0/79]	Time  1.232 ( 1.232)	Loss 4.2235e+00 (4.2235e+00)	Acc@1  21.09 ( 21.09)	Acc@5  41.41 ( 41.41)
+ * Acc@1 18.460 Acc@5 40.240
+Adjusting learning rate of group 0 to 1.4568e-01.
+Epoch: [24][ 0/85]	Time  1.055 ( 1.055)	Data  0.991 ( 0.991)	Loss 8.8106e+00 (8.8106e+00)	Acc@1  31.25 ( 31.25)	Acc@5  58.59 ( 58.59)
+Test: [ 0/79]	Time  0.917 ( 0.917)	Loss 4.4141e+00 (4.4141e+00)	Acc@1  15.62 ( 15.62)	Acc@5  40.62 ( 40.62)
+ * Acc@1 17.450 Acc@5 40.590
+Adjusting learning rate of group 0 to 1.4522e-01.
+Epoch: [25][ 0/85]	Time  1.034 ( 1.034)	Data  0.971 ( 0.971)	Loss 8.7267e+00 (8.7267e+00)	Acc@1  35.16 ( 35.16)	Acc@5  64.84 ( 64.84)
+Test: [ 0/79]	Time  1.232 ( 1.232)	Loss 4.5743e+00 (4.5743e+00)	Acc@1  16.41 ( 16.41)	Acc@5  32.81 ( 32.81)
+ * Acc@1 17.910 Acc@5 40.590
+Adjusting learning rate of group 0 to 1.4473e-01.
+Epoch: [26][ 0/85]	Time  1.036 ( 1.036)	Data  0.972 ( 0.972)	Loss 7.5756e+00 (7.5756e+00)	Acc@1  35.16 ( 35.16)	Acc@5  69.53 ( 69.53)
+Test: [ 0/79]	Time  0.927 ( 0.927)	Loss 3.8690e+00 (3.8690e+00)	Acc@1  21.88 ( 21.88)	Acc@5  46.09 ( 46.09)
+ * Acc@1 22.210 Acc@5 49.100
+Adjusting learning rate of group 0 to 1.4423e-01.
+Epoch: [27][ 0/85]	Time  1.030 ( 1.030)	Data  0.968 ( 0.968)	Loss 7.8661e+00 (7.8661e+00)	Acc@1  40.62 ( 40.62)	Acc@5  68.75 ( 68.75)
+Test: [ 0/79]	Time  0.935 ( 0.935)	Loss 3.7931e+00 (3.7931e+00)	Acc@1  25.78 ( 25.78)	Acc@5  46.09 ( 46.09)
+ * Acc@1 25.340 Acc@5 51.170
+Adjusting learning rate of group 0 to 1.4370e-01.
+Epoch: [28][ 0/85]	Time  1.367 ( 1.367)	Data  1.302 ( 1.302)	Loss 7.3052e+00 (7.3052e+00)	Acc@1  42.97 ( 42.97)	Acc@5  69.53 ( 69.53)
+Test: [ 0/79]	Time  1.233 ( 1.233)	Loss 4.1479e+00 (4.1479e+00)	Acc@1  18.75 ( 18.75)	Acc@5  41.41 ( 41.41)
+ * Acc@1 22.110 Acc@5 48.280
+Adjusting learning rate of group 0 to 1.4315e-01.
+Epoch: [29][ 0/85]	Time  1.036 ( 1.036)	Data  0.971 ( 0.971)	Loss 7.4857e+00 (7.4857e+00)	Acc@1  39.84 ( 39.84)	Acc@5  67.19 ( 67.19)
+Test: [ 0/79]	Time  0.915 ( 0.915)	Loss 3.8806e+00 (3.8806e+00)	Acc@1  20.31 ( 20.31)	Acc@5  44.53 ( 44.53)
+ * Acc@1 19.040 Acc@5 45.000
+Adjusting learning rate of group 0 to 1.4257e-01.
+Epoch: [30][ 0/85]	Time  1.337 ( 1.337)	Data  1.272 ( 1.272)	Loss 7.2086e+00 (7.2086e+00)	Acc@1  39.84 ( 39.84)	Acc@5  75.00 ( 75.00)
+Test: [ 0/79]	Time  0.922 ( 0.922)	Loss 3.7781e+00 (3.7781e+00)	Acc@1  20.31 ( 20.31)	Acc@5  46.09 ( 46.09)
+ * Acc@1 23.990 Acc@5 49.650
+Adjusting learning rate of group 0 to 1.4198e-01.
+Epoch: [31][ 0/85]	Time  1.020 ( 1.020)	Data  0.958 ( 0.958)	Loss 7.5621e+00 (7.5621e+00)	Acc@1  39.06 ( 39.06)	Acc@5  71.09 ( 71.09)
+Test: [ 0/79]	Time  0.916 ( 0.916)	Loss 3.7646e+00 (3.7646e+00)	Acc@1  26.56 ( 26.56)	Acc@5  50.78 ( 50.78)
+ * Acc@1 23.140 Acc@5 49.440
+Adjusting learning rate of group 0 to 1.4136e-01.
+Epoch: [32][ 0/85]	Time  1.020 ( 1.020)	Data  0.955 ( 0.955)	Loss 7.2870e+00 (7.2870e+00)	Acc@1  42.19 ( 42.19)	Acc@5  74.22 ( 74.22)
+Test: [ 0/79]	Time  0.913 ( 0.913)	Loss 3.5502e+00 (3.5502e+00)	Acc@1  23.44 ( 23.44)	Acc@5  49.22 ( 49.22)
+ * Acc@1 22.480 Acc@5 48.890
+Adjusting learning rate of group 0 to 1.4072e-01.
+Epoch: [33][ 0/85]	Time  1.340 ( 1.340)	Data  1.279 ( 1.279)	Loss 6.3541e+00 (6.3541e+00)	Acc@1  46.88 ( 46.88)	Acc@5  75.78 ( 75.78)
+Test: [ 0/79]	Time  1.262 ( 1.262)	Loss 3.7695e+00 (3.7695e+00)	Acc@1  27.34 ( 27.34)	Acc@5  46.88 ( 46.88)
+ * Acc@1 25.860 Acc@5 54.210
+Adjusting learning rate of group 0 to 1.4006e-01.
+Epoch: [34][ 0/85]	Time  1.380 ( 1.380)	Data  1.317 ( 1.317)	Loss 6.8774e+00 (6.8774e+00)	Acc@1  43.75 ( 43.75)	Acc@5  74.22 ( 74.22)
+Test: [ 0/79]	Time  1.262 ( 1.262)	Loss 3.5113e+00 (3.5113e+00)	Acc@1  23.44 ( 23.44)	Acc@5  57.81 ( 57.81)
+ * Acc@1 24.140 Acc@5 50.050
+Adjusting learning rate of group 0 to 1.3938e-01.
+Epoch: [35][ 0/85]	Time  1.346 ( 1.346)	Data  1.285 ( 1.285)	Loss 7.3168e+00 (7.3168e+00)	Acc@1  43.75 ( 43.75)	Acc@5  68.75 ( 68.75)
+Test: [ 0/79]	Time  0.912 ( 0.912)	Loss 3.4478e+00 (3.4478e+00)	Acc@1  25.00 ( 25.00)	Acc@5  50.78 ( 50.78)
+ * Acc@1 24.610 Acc@5 51.790
+Adjusting learning rate of group 0 to 1.3868e-01.
+Epoch: [36][ 0/85]	Time  1.019 ( 1.019)	Data  0.955 ( 0.955)	Loss 6.9750e+00 (6.9750e+00)	Acc@1  46.09 ( 46.09)	Acc@5  73.44 ( 73.44)
+Test: [ 0/79]	Time  0.909 ( 0.909)	Loss 3.8476e+00 (3.8476e+00)	Acc@1  18.75 ( 18.75)	Acc@5  47.66 ( 47.66)
+ * Acc@1 24.550 Acc@5 50.220
+Adjusting learning rate of group 0 to 1.3796e-01.
+Epoch: [37][ 0/85]	Time  1.024 ( 1.024)	Data  0.959 ( 0.959)	Loss 7.2116e+00 (7.2116e+00)	Acc@1  50.00 ( 50.00)	Acc@5  68.75 ( 68.75)
+Test: [ 0/79]	Time  1.239 ( 1.239)	Loss 3.3785e+00 (3.3785e+00)	Acc@1  21.09 ( 21.09)	Acc@5  53.12 ( 53.12)
+ * Acc@1 21.670 Acc@5 49.170
+Adjusting learning rate of group 0 to 1.3722e-01.
+Epoch: [38][ 0/85]	Time  1.034 ( 1.034)	Data  0.972 ( 0.972)	Loss 6.5621e+00 (6.5621e+00)	Acc@1  51.56 ( 51.56)	Acc@5  75.78 ( 75.78)
+Test: [ 0/79]	Time  0.926 ( 0.926)	Loss 3.5638e+00 (3.5638e+00)	Acc@1  24.22 ( 24.22)	Acc@5  43.75 ( 43.75)
+ * Acc@1 27.030 Acc@5 54.380
+Adjusting learning rate of group 0 to 1.3646e-01.
+Epoch: [39][ 0/85]	Time  1.037 ( 1.037)	Data  0.976 ( 0.976)	Loss 6.5483e+00 (6.5483e+00)	Acc@1  43.75 ( 43.75)	Acc@5  78.12 ( 78.12)
+Test: [ 0/79]	Time  0.927 ( 0.927)	Loss 3.0191e+00 (3.0191e+00)	Acc@1  28.12 ( 28.12)	Acc@5  59.38 ( 59.38)
+ * Acc@1 27.200 Acc@5 54.580
+Adjusting learning rate of group 0 to 1.3568e-01.
+Epoch: [40][ 0/85]	Time  1.363 ( 1.363)	Data  1.299 ( 1.299)	Loss 6.0613e+00 (6.0613e+00)	Acc@1  51.56 ( 51.56)	Acc@5  80.47 ( 80.47)
+Test: [ 0/79]	Time  1.248 ( 1.248)	Loss 4.0634e+00 (4.0634e+00)	Acc@1  20.31 ( 20.31)	Acc@5  39.84 ( 39.84)
+ * Acc@1 21.840 Acc@5 48.050
+Adjusting learning rate of group 0 to 1.3488e-01.
+Epoch: [41][ 0/85]	Time  1.363 ( 1.363)	Data  1.302 ( 1.302)	Loss 6.4446e+00 (6.4446e+00)	Acc@1  43.75 ( 43.75)	Acc@5  77.34 ( 77.34)
+Test: [ 0/79]	Time  1.245 ( 1.245)	Loss 3.5743e+00 (3.5743e+00)	Acc@1  23.44 ( 23.44)	Acc@5  53.91 ( 53.91)
+ * Acc@1 26.660 Acc@5 54.090
+Adjusting learning rate of group 0 to 1.3405e-01.
+Epoch: [42][ 0/85]	Time  1.342 ( 1.342)	Data  1.280 ( 1.280)	Loss 6.6442e+00 (6.6442e+00)	Acc@1  43.75 ( 43.75)	Acc@5  75.00 ( 75.00)
+Test: [ 0/79]	Time  1.245 ( 1.245)	Loss 3.2191e+00 (3.2191e+00)	Acc@1  22.66 ( 22.66)	Acc@5  56.25 ( 56.25)
+ * Acc@1 26.790 Acc@5 55.740
+Adjusting learning rate of group 0 to 1.3322e-01.
+Epoch: [43][ 0/85]	Time  1.366 ( 1.366)	Data  1.303 ( 1.303)	Loss 7.5807e+00 (7.5807e+00)	Acc@1  39.84 ( 39.84)	Acc@5  68.75 ( 68.75)
+Test: [ 0/79]	Time  1.259 ( 1.259)	Loss 3.0762e+00 (3.0762e+00)	Acc@1  29.69 ( 29.69)	Acc@5  55.47 ( 55.47)
+ * Acc@1 26.060 Acc@5 54.840
+Adjusting learning rate of group 0 to 1.3236e-01.
+Epoch: [44][ 0/85]	Time  1.345 ( 1.345)	Data  1.281 ( 1.281)	Loss 6.5931e+00 (6.5931e+00)	Acc@1  50.00 ( 50.00)	Acc@5  77.34 ( 77.34)
+Test: [ 0/79]	Time  0.924 ( 0.924)	Loss 3.4915e+00 (3.4915e+00)	Acc@1  27.34 ( 27.34)	Acc@5  50.00 ( 50.00)
+ * Acc@1 28.640 Acc@5 55.910
+Adjusting learning rate of group 0 to 1.3148e-01.
+Epoch: [45][ 0/85]	Time  1.049 ( 1.049)	Data  0.985 ( 0.985)	Loss 6.2565e+00 (6.2565e+00)	Acc@1  51.56 ( 51.56)	Acc@5  77.34 ( 77.34)
+Test: [ 0/79]	Time  1.238 ( 1.238)	Loss 3.0976e+00 (3.0976e+00)	Acc@1  29.69 ( 29.69)	Acc@5  58.59 ( 58.59)
+ * Acc@1 28.750 Acc@5 57.600
+Adjusting learning rate of group 0 to 1.3059e-01.
+Epoch: [46][ 0/85]	Time  1.363 ( 1.363)	Data  1.302 ( 1.302)	Loss 5.8919e+00 (5.8919e+00)	Acc@1  57.03 ( 57.03)	Acc@5  78.12 ( 78.12)
+Test: [ 0/79]	Time  0.935 ( 0.935)	Loss 3.2668e+00 (3.2668e+00)	Acc@1  32.03 ( 32.03)	Acc@5  51.56 ( 51.56)
+ * Acc@1 27.940 Acc@5 58.280
+Adjusting learning rate of group 0 to 1.2967e-01.
+Epoch: [47][ 0/85]	Time  1.029 ( 1.029)	Data  0.965 ( 0.965)	Loss 6.6696e+00 (6.6696e+00)	Acc@1  43.75 ( 43.75)	Acc@5  75.00 ( 75.00)
+Test: [ 0/79]	Time  0.940 ( 0.940)	Loss 3.6443e+00 (3.6443e+00)	Acc@1  24.22 ( 24.22)	Acc@5  50.78 ( 50.78)
+ * Acc@1 27.790 Acc@5 54.970
+Adjusting learning rate of group 0 to 1.2874e-01.
+Epoch: [48][ 0/85]	Time  1.036 ( 1.036)	Data  0.970 ( 0.970)	Loss 6.6837e+00 (6.6837e+00)	Acc@1  46.88 ( 46.88)	Acc@5  75.78 ( 75.78)
+Test: [ 0/79]	Time  1.243 ( 1.243)	Loss 3.3182e+00 (3.3182e+00)	Acc@1  32.03 ( 32.03)	Acc@5  56.25 ( 56.25)
+ * Acc@1 26.090 Acc@5 52.400
+Adjusting learning rate of group 0 to 1.2779e-01.
+Epoch: [49][ 0/85]	Time  1.050 ( 1.050)	Data  0.987 ( 0.987)	Loss 6.5312e+00 (6.5312e+00)	Acc@1  47.66 ( 47.66)	Acc@5  77.34 ( 77.34)
+Test: [ 0/79]	Time  0.916 ( 0.916)	Loss 2.7169e+00 (2.7169e+00)	Acc@1  33.59 ( 33.59)	Acc@5  63.28 ( 63.28)
+ * Acc@1 28.250 Acc@5 56.050
+Adjusting learning rate of group 0 to 1.2683e-01.
+Epoch: [50][ 0/85]	Time  1.034 ( 1.034)	Data  0.969 ( 0.969)	Loss 5.5735e+00 (5.5735e+00)	Acc@1  52.34 ( 52.34)	Acc@5  80.47 ( 80.47)
+Test: [ 0/79]	Time  1.232 ( 1.232)	Loss 3.3569e+00 (3.3569e+00)	Acc@1  27.34 ( 27.34)	Acc@5  50.00 ( 50.00)
+ * Acc@1 23.920 Acc@5 48.690
+Adjusting learning rate of group 0 to 1.2585e-01.
+Epoch: [51][ 0/85]	Time  1.341 ( 1.341)	Data  1.279 ( 1.279)	Loss 6.7793e+00 (6.7793e+00)	Acc@1  47.66 ( 47.66)	Acc@5  72.66 ( 72.66)
+Test: [ 0/79]	Time  0.943 ( 0.943)	Loss 3.4237e+00 (3.4237e+00)	Acc@1  31.25 ( 31.25)	Acc@5  57.03 ( 57.03)
+ * Acc@1 31.350 Acc@5 58.100
+Adjusting learning rate of group 0 to 1.2485e-01.
+Epoch: [52][ 0/85]	Time  1.368 ( 1.368)	Data  1.305 ( 1.305)	Loss 6.5733e+00 (6.5733e+00)	Acc@1  46.88 ( 46.88)	Acc@5  79.69 ( 79.69)
+Test: [ 0/79]	Time  0.929 ( 0.929)	Loss 3.4266e+00 (3.4266e+00)	Acc@1  25.00 ( 25.00)	Acc@5  53.12 ( 53.12)
+ * Acc@1 27.120 Acc@5 54.610
+Adjusting learning rate of group 0 to 1.2384e-01.
+Epoch: [53][ 0/85]	Time  1.033 ( 1.033)	Data  0.971 ( 0.971)	Loss 6.2352e+00 (6.2352e+00)	Acc@1  49.22 ( 49.22)	Acc@5  82.81 ( 82.81)
+Test: [ 0/79]	Time  1.246 ( 1.246)	Loss 2.6844e+00 (2.6844e+00)	Acc@1  33.59 ( 33.59)	Acc@5  68.75 ( 68.75)
+ * Acc@1 31.460 Acc@5 58.360
+Adjusting learning rate of group 0 to 1.2281e-01.
+Epoch: [54][ 0/85]	Time  1.046 ( 1.046)	Data  0.982 ( 0.982)	Loss 6.1411e+00 (6.1411e+00)	Acc@1  50.78 ( 50.78)	Acc@5  78.91 ( 78.91)
+Test: [ 0/79]	Time  0.930 ( 0.930)	Loss 3.4383e+00 (3.4383e+00)	Acc@1  27.34 ( 27.34)	Acc@5  53.12 ( 53.12)
+ * Acc@1 27.870 Acc@5 54.440
+Adjusting learning rate of group 0 to 1.2176e-01.
+Epoch: [55][ 0/85]	Time  1.333 ( 1.333)	Data  1.271 ( 1.271)	Loss 5.6187e+00 (5.6187e+00)	Acc@1  52.34 ( 52.34)	Acc@5  81.25 ( 81.25)
+Test: [ 0/79]	Time  1.241 ( 1.241)	Loss 3.3298e+00 (3.3298e+00)	Acc@1  31.25 ( 31.25)	Acc@5  54.69 ( 54.69)
+ * Acc@1 27.440 Acc@5 55.280
+Adjusting learning rate of group 0 to 1.2070e-01.
+Epoch: [56][ 0/85]	Time  1.340 ( 1.340)	Data  1.276 ( 1.276)	Loss 5.5243e+00 (5.5243e+00)	Acc@1  53.12 ( 53.12)	Acc@5  82.03 ( 82.03)
+Test: [ 0/79]	Time  1.239 ( 1.239)	Loss 3.2196e+00 (3.2196e+00)	Acc@1  32.03 ( 32.03)	Acc@5  57.03 ( 57.03)
+ * Acc@1 26.560 Acc@5 54.990
+Adjusting learning rate of group 0 to 1.1963e-01.
+Epoch: [57][ 0/85]	Time  1.043 ( 1.043)	Data  0.978 ( 0.978)	Loss 6.1463e+00 (6.1463e+00)	Acc@1  45.31 ( 45.31)	Acc@5  82.03 ( 82.03)
+Test: [ 0/79]	Time  1.240 ( 1.240)	Loss 3.7782e+00 (3.7782e+00)	Acc@1  21.88 ( 21.88)	Acc@5  50.78 ( 50.78)
+ * Acc@1 25.600 Acc@5 54.170
+Adjusting learning rate of group 0 to 1.1854e-01.
+Epoch: [58][ 0/85]	Time  1.022 ( 1.022)	Data  0.957 ( 0.957)	Loss 6.6483e+00 (6.6483e+00)	Acc@1  45.31 ( 45.31)	Acc@5  79.69 ( 79.69)
+Test: [ 0/79]	Time  1.249 ( 1.249)	Loss 2.9309e+00 (2.9309e+00)	Acc@1  31.25 ( 31.25)	Acc@5  60.16 ( 60.16)
+ * Acc@1 31.700 Acc@5 59.830
+Adjusting learning rate of group 0 to 1.1743e-01.
+Epoch: [59][ 0/85]	Time  1.041 ( 1.041)	Data  0.978 ( 0.978)	Loss 6.3663e+00 (6.3663e+00)	Acc@1  46.88 ( 46.88)	Acc@5  75.78 ( 75.78)
+Test: [ 0/79]	Time  1.230 ( 1.230)	Loss 2.7667e+00 (2.7667e+00)	Acc@1  34.38 ( 34.38)	Acc@5  64.06 ( 64.06)
+ * Acc@1 30.640 Acc@5 58.340
+Adjusting learning rate of group 0 to 1.1632e-01.
+Epoch: [60][ 0/85]	Time  1.017 ( 1.017)	Data  0.954 ( 0.954)	Loss 5.6093e+00 (5.6093e+00)	Acc@1  53.12 ( 53.12)	Acc@5  82.03 ( 82.03)
+Test: [ 0/79]	Time  0.912 ( 0.912)	Loss 3.0281e+00 (3.0281e+00)	Acc@1  32.03 ( 32.03)	Acc@5  63.28 ( 63.28)
+ * Acc@1 29.430 Acc@5 57.170
+Adjusting learning rate of group 0 to 1.1519e-01.
+Epoch: [61][ 0/85]	Time  1.356 ( 1.356)	Data  1.291 ( 1.291)	Loss 5.5225e+00 (5.5225e+00)	Acc@1  52.34 ( 52.34)	Acc@5  82.81 ( 82.81)
+Test: [ 0/79]	Time  1.259 ( 1.259)	Loss 3.1546e+00 (3.1546e+00)	Acc@1  26.56 ( 26.56)	Acc@5  60.16 ( 60.16)
+ * Acc@1 30.050 Acc@5 58.910
+Adjusting learning rate of group 0 to 1.1404e-01.
+Epoch: [62][ 0/85]	Time  1.357 ( 1.357)	Data  1.292 ( 1.292)	Loss 6.0622e+00 (6.0622e+00)	Acc@1  53.91 ( 53.91)	Acc@5  83.59 ( 83.59)
+Test: [ 0/79]	Time  1.238 ( 1.238)	Loss 2.6866e+00 (2.6866e+00)	Acc@1  39.84 ( 39.84)	Acc@5  70.31 ( 70.31)
+ * Acc@1 30.480 Acc@5 58.370
+Adjusting learning rate of group 0 to 1.1289e-01.
+Epoch: [63][ 0/85]	Time  1.037 ( 1.037)	Data  0.972 ( 0.972)	Loss 6.0913e+00 (6.0913e+00)	Acc@1  43.75 ( 43.75)	Acc@5  78.12 ( 78.12)
+Test: [ 0/79]	Time  0.926 ( 0.926)	Loss 3.4331e+00 (3.4331e+00)	Acc@1  31.25 ( 31.25)	Acc@5  53.12 ( 53.12)
+ * Acc@1 31.150 Acc@5 57.550
+Adjusting learning rate of group 0 to 1.1172e-01.
+Epoch: [64][ 0/85]	Time  1.339 ( 1.339)	Data  1.275 ( 1.275)	Loss 5.1644e+00 (5.1644e+00)	Acc@1  56.25 ( 56.25)	Acc@5  85.16 ( 85.16)
+Test: [ 0/79]	Time  1.260 ( 1.260)	Loss 3.3043e+00 (3.3043e+00)	Acc@1  29.69 ( 29.69)	Acc@5  51.56 ( 51.56)
+ * Acc@1 29.650 Acc@5 56.540
+Adjusting learning rate of group 0 to 1.1054e-01.
+Epoch: [65][ 0/85]	Time  1.041 ( 1.041)	Data  0.976 ( 0.976)	Loss 5.6344e+00 (5.6344e+00)	Acc@1  54.69 ( 54.69)	Acc@5  83.59 ( 83.59)
+Test: [ 0/79]	Time  0.936 ( 0.936)	Loss 3.2799e+00 (3.2799e+00)	Acc@1  28.91 ( 28.91)	Acc@5  55.47 ( 55.47)
+ * Acc@1 31.200 Acc@5 58.470
+Adjusting learning rate of group 0 to 1.0935e-01.
+Epoch: [66][ 0/85]	Time  1.351 ( 1.351)	Data  1.290 ( 1.290)	Loss 5.6703e+00 (5.6703e+00)	Acc@1  56.25 ( 56.25)	Acc@5  78.12 ( 78.12)
+Test: [ 0/79]	Time  1.245 ( 1.245)	Loss 2.6083e+00 (2.6083e+00)	Acc@1  33.59 ( 33.59)	Acc@5  67.97 ( 67.97)
+ * Acc@1 34.250 Acc@5 62.000
+Adjusting learning rate of group 0 to 1.0815e-01.
+Epoch: [67][ 0/85]	Time  1.368 ( 1.368)	Data  1.304 ( 1.304)	Loss 5.2175e+00 (5.2175e+00)	Acc@1  56.25 ( 56.25)	Acc@5  84.38 ( 84.38)
+Test: [ 0/79]	Time  0.918 ( 0.918)	Loss 3.3938e+00 (3.3938e+00)	Acc@1  33.59 ( 33.59)	Acc@5  54.69 ( 54.69)
+ * Acc@1 30.660 Acc@5 59.270
+Adjusting learning rate of group 0 to 1.0693e-01.
+Epoch: [68][ 0/85]	Time  1.018 ( 1.018)	Data  0.957 ( 0.957)	Loss 5.8111e+00 (5.8111e+00)	Acc@1  55.47 ( 55.47)	Acc@5  81.25 ( 81.25)
+Test: [ 0/79]	Time  0.916 ( 0.916)	Loss 2.8423e+00 (2.8423e+00)	Acc@1  34.38 ( 34.38)	Acc@5  57.81 ( 57.81)
+ * Acc@1 32.900 Acc@5 60.470
+Adjusting learning rate of group 0 to 1.0571e-01.
+Epoch: [69][ 0/85]	Time  1.032 ( 1.032)	Data  0.970 ( 0.970)	Loss 5.9040e+00 (5.9040e+00)	Acc@1  50.00 ( 50.00)	Acc@5  80.47 ( 80.47)
+Test: [ 0/79]	Time  1.234 ( 1.234)	Loss 3.3600e+00 (3.3600e+00)	Acc@1  30.47 ( 30.47)	Acc@5  51.56 ( 51.56)
+ * Acc@1 30.800 Acc@5 56.660
+Adjusting learning rate of group 0 to 1.0448e-01.
+Epoch: [70][ 0/85]	Time  1.351 ( 1.351)	Data  1.287 ( 1.287)	Loss 5.7789e+00 (5.7789e+00)	Acc@1  54.69 ( 54.69)	Acc@5  82.81 ( 82.81)
+Test: [ 0/79]	Time  0.936 ( 0.936)	Loss 3.1965e+00 (3.1965e+00)	Acc@1  27.34 ( 27.34)	Acc@5  56.25 ( 56.25)
+ * Acc@1 32.170 Acc@5 60.140
+Adjusting learning rate of group 0 to 1.0323e-01.
+Epoch: [71][ 0/85]	Time  1.030 ( 1.030)	Data  0.965 ( 0.965)	Loss 5.6935e+00 (5.6935e+00)	Acc@1  50.78 ( 50.78)	Acc@5  81.25 ( 81.25)
+Test: [ 0/79]	Time  1.243 ( 1.243)	Loss 3.1240e+00 (3.1240e+00)	Acc@1  33.59 ( 33.59)	Acc@5  58.59 ( 58.59)
+ * Acc@1 33.250 Acc@5 59.580
+Adjusting learning rate of group 0 to 1.0198e-01.
+Epoch: [72][ 0/85]	Time  1.346 ( 1.346)	Data  1.284 ( 1.284)	Loss 5.1304e+00 (5.1304e+00)	Acc@1  57.03 ( 57.03)	Acc@5  85.94 ( 85.94)
+Test: [ 0/79]	Time  0.926 ( 0.926)	Loss 2.8602e+00 (2.8602e+00)	Acc@1  36.72 ( 36.72)	Acc@5  63.28 ( 63.28)
+ * Acc@1 31.380 Acc@5 59.970
+Adjusting learning rate of group 0 to 1.0072e-01.
+Epoch: [73][ 0/85]	Time  1.039 ( 1.039)	Data  0.977 ( 0.977)	Loss 4.9874e+00 (4.9874e+00)	Acc@1  60.16 ( 60.16)	Acc@5  84.38 ( 84.38)
+Test: [ 0/79]	Time  1.244 ( 1.244)	Loss 3.2670e+00 (3.2670e+00)	Acc@1  26.56 ( 26.56)	Acc@5  58.59 ( 58.59)
+ * Acc@1 30.200 Acc@5 58.350
+Adjusting learning rate of group 0 to 9.9453e-02.
+Epoch: [74][ 0/85]	Time  1.362 ( 1.362)	Data  1.300 ( 1.300)	Loss 4.8576e+00 (4.8576e+00)	Acc@1  63.28 ( 63.28)	Acc@5  88.28 ( 88.28)
+Test: [ 0/79]	Time  1.254 ( 1.254)	Loss 2.9877e+00 (2.9877e+00)	Acc@1  35.16 ( 35.16)	Acc@5  58.59 ( 58.59)
+ * Acc@1 32.940 Acc@5 62.450
+Adjusting learning rate of group 0 to 9.8176e-02.
+Epoch: [75][ 0/85]	Time  1.034 ( 1.034)	Data  0.972 ( 0.972)	Loss 5.8683e+00 (5.8683e+00)	Acc@1  53.12 ( 53.12)	Acc@5  78.12 ( 78.12)
+Test: [ 0/79]	Time  0.923 ( 0.923)	Loss 2.9647e+00 (2.9647e+00)	Acc@1  34.38 ( 34.38)	Acc@5  62.50 ( 62.50)
+ * Acc@1 31.830 Acc@5 58.120
+Adjusting learning rate of group 0 to 9.6892e-02.
+Epoch: [76][ 0/85]	Time  1.336 ( 1.336)	Data  1.272 ( 1.272)	Loss 5.5993e+00 (5.5993e+00)	Acc@1  51.56 ( 51.56)	Acc@5  82.81 ( 82.81)
+Test: [ 0/79]	Time  1.245 ( 1.245)	Loss 3.4107e+00 (3.4107e+00)	Acc@1  32.03 ( 32.03)	Acc@5  56.25 ( 56.25)
+ * Acc@1 31.680 Acc@5 59.580
+Adjusting learning rate of group 0 to 9.5601e-02.
+Epoch: [77][ 0/85]	Time  1.034 ( 1.034)	Data  0.970 ( 0.970)	Loss 5.8515e+00 (5.8515e+00)	Acc@1  54.69 ( 54.69)	Acc@5  80.47 ( 80.47)
+Test: [ 0/79]	Time  0.929 ( 0.929)	Loss 2.9326e+00 (2.9326e+00)	Acc@1  32.03 ( 32.03)	Acc@5  60.16 ( 60.16)
+ * Acc@1 30.520 Acc@5 59.300
+Adjusting learning rate of group 0 to 9.4303e-02.
+Epoch: [78][ 0/85]	Time  1.038 ( 1.038)	Data  0.973 ( 0.973)	Loss 5.7682e+00 (5.7682e+00)	Acc@1  56.25 ( 56.25)	Acc@5  80.47 ( 80.47)
+Test: [ 0/79]	Time  0.935 ( 0.935)	Loss 2.5906e+00 (2.5906e+00)	Acc@1  39.06 ( 39.06)	Acc@5  69.53 ( 69.53)
+ * Acc@1 33.240 Acc@5 62.670
+Adjusting learning rate of group 0 to 9.2999e-02.
+Epoch: [79][ 0/85]	Time  1.359 ( 1.359)	Data  1.294 ( 1.294)	Loss 5.7512e+00 (5.7512e+00)	Acc@1  55.47 ( 55.47)	Acc@5  78.91 ( 78.91)
+Test: [ 0/79]	Time  1.268 ( 1.268)	Loss 3.0776e+00 (3.0776e+00)	Acc@1  32.03 ( 32.03)	Acc@5  58.59 ( 58.59)
+ * Acc@1 33.500 Acc@5 62.110
+Adjusting learning rate of group 0 to 9.1689e-02.
+Epoch: [80][ 0/85]	Time  1.349 ( 1.349)	Data  1.287 ( 1.287)	Loss 5.0775e+00 (5.0775e+00)	Acc@1  57.81 ( 57.81)	Acc@5  86.72 ( 86.72)
+Test: [ 0/79]	Time  1.271 ( 1.271)	Loss 2.8407e+00 (2.8407e+00)	Acc@1  31.25 ( 31.25)	Acc@5  63.28 ( 63.28)
+ * Acc@1 34.020 Acc@5 61.500
+Adjusting learning rate of group 0 to 9.0374e-02.
+Epoch: [81][ 0/85]	Time  1.023 ( 1.023)	Data  0.960 ( 0.960)	Loss 5.5992e+00 (5.5992e+00)	Acc@1  54.69 ( 54.69)	Acc@5  82.03 ( 82.03)
+Test: [ 0/79]	Time  1.241 ( 1.241)	Loss 2.9329e+00 (2.9329e+00)	Acc@1  33.59 ( 33.59)	Acc@5  61.72 ( 61.72)
+ * Acc@1 31.850 Acc@5 58.970
+Adjusting learning rate of group 0 to 8.9054e-02.
+Epoch: [82][ 0/85]	Time  1.347 ( 1.347)	Data  1.283 ( 1.283)	Loss 4.4756e+00 (4.4756e+00)	Acc@1  64.84 ( 64.84)	Acc@5  88.28 ( 88.28)
+Test: [ 0/79]	Time  0.928 ( 0.928)	Loss 3.5661e+00 (3.5661e+00)	Acc@1  24.22 ( 24.22)	Acc@5  50.00 ( 50.00)
+ * Acc@1 30.380 Acc@5 59.460
+Adjusting learning rate of group 0 to 8.7729e-02.
+Epoch: [83][ 0/85]	Time  1.022 ( 1.022)	Data  0.960 ( 0.960)	Loss 6.0190e+00 (6.0190e+00)	Acc@1  53.91 ( 53.91)	Acc@5  76.56 ( 76.56)
+Test: [ 0/79]	Time  0.928 ( 0.928)	Loss 2.9518e+00 (2.9518e+00)	Acc@1  28.91 ( 28.91)	Acc@5  57.81 ( 57.81)
+ * Acc@1 35.270 Acc@5 63.440
+Adjusting learning rate of group 0 to 8.6400e-02.
+Epoch: [84][ 0/85]	Time  1.372 ( 1.372)	Data  1.308 ( 1.308)	Loss 5.5829e+00 (5.5829e+00)	Acc@1  57.81 ( 57.81)	Acc@5  79.69 ( 79.69)
+Test: [ 0/79]	Time  0.929 ( 0.929)	Loss 3.4376e+00 (3.4376e+00)	Acc@1  23.44 ( 23.44)	Acc@5  50.78 ( 50.78)
+ * Acc@1 32.590 Acc@5 61.090
+Adjusting learning rate of group 0 to 8.5067e-02.
+Epoch: [85][ 0/85]	Time  1.036 ( 1.036)	Data  0.972 ( 0.972)	Loss 5.1906e+00 (5.1906e+00)	Acc@1  54.69 ( 54.69)	Acc@5  84.38 ( 84.38)
+Test: [ 0/79]	Time  0.922 ( 0.922)	Loss 3.3870e+00 (3.3870e+00)	Acc@1  32.81 ( 32.81)	Acc@5  53.12 ( 53.12)
+ * Acc@1 32.620 Acc@5 60.340
+Adjusting learning rate of group 0 to 8.3732e-02.
+Epoch: [86][ 0/85]	Time  1.366 ( 1.366)	Data  1.301 ( 1.301)	Loss 4.6956e+00 (4.6956e+00)	Acc@1  58.59 ( 58.59)	Acc@5  87.50 ( 87.50)
+Test: [ 0/79]	Time  1.254 ( 1.254)	Loss 2.9763e+00 (2.9763e+00)	Acc@1  28.91 ( 28.91)	Acc@5  64.84 ( 64.84)
+ * Acc@1 34.470 Acc@5 63.350
+Adjusting learning rate of group 0 to 8.2393e-02.
+Epoch: [87][ 0/85]	Time  1.032 ( 1.032)	Data  0.969 ( 0.969)	Loss 5.3032e+00 (5.3032e+00)	Acc@1  58.59 ( 58.59)	Acc@5  80.47 ( 80.47)
+Test: [ 0/79]	Time  0.933 ( 0.933)	Loss 2.9803e+00 (2.9803e+00)	Acc@1  30.47 ( 30.47)	Acc@5  60.16 ( 60.16)
+ * Acc@1 32.500 Acc@5 61.230
+Adjusting learning rate of group 0 to 8.1052e-02.
+Epoch: [88][ 0/85]	Time  1.031 ( 1.031)	Data  0.970 ( 0.970)	Loss 5.3309e+00 (5.3309e+00)	Acc@1  53.12 ( 53.12)	Acc@5  88.28 ( 88.28)
+Test: [ 0/79]	Time  0.928 ( 0.928)	Loss 3.0518e+00 (3.0518e+00)	Acc@1  33.59 ( 33.59)	Acc@5  64.06 ( 64.06)
+ * Acc@1 33.750 Acc@5 60.920
+Adjusting learning rate of group 0 to 7.9709e-02.
+Epoch: [89][ 0/85]	Time  1.030 ( 1.030)	Data  0.968 ( 0.968)	Loss 4.6891e+00 (4.6891e+00)	Acc@1  64.06 ( 64.06)	Acc@5  83.59 ( 83.59)
+Test: [ 0/79]	Time  0.929 ( 0.929)	Loss 3.7639e+00 (3.7639e+00)	Acc@1  21.09 ( 21.09)	Acc@5  49.22 ( 49.22)
+ * Acc@1 31.380 Acc@5 59.670
+Adjusting learning rate of group 0 to 7.8365e-02.
+Epoch: [90][ 0/85]	Time  1.041 ( 1.041)	Data  0.977 ( 0.977)	Loss 4.7027e+00 (4.7027e+00)	Acc@1  57.81 ( 57.81)	Acc@5  87.50 ( 87.50)
+Test: [ 0/79]	Time  0.928 ( 0.928)	Loss 2.9624e+00 (2.9624e+00)	Acc@1  37.50 ( 37.50)	Acc@5  62.50 ( 62.50)
+ * Acc@1 34.860 Acc@5 61.700
+Adjusting learning rate of group 0 to 7.7019e-02.
+Epoch: [91][ 0/85]	Time  1.344 ( 1.344)	Data  1.279 ( 1.279)	Loss 4.5376e+00 (4.5376e+00)	Acc@1  67.19 ( 67.19)	Acc@5  86.72 ( 86.72)
+Test: [ 0/79]	Time  1.230 ( 1.230)	Loss 2.6291e+00 (2.6291e+00)	Acc@1  38.28 ( 38.28)	Acc@5  68.75 ( 68.75)
+ * Acc@1 31.090 Acc@5 60.870
+Adjusting learning rate of group 0 to 7.5673e-02.
+Epoch: [92][ 0/85]	Time  1.367 ( 1.367)	Data  1.304 ( 1.304)	Loss 4.9892e+00 (4.9892e+00)	Acc@1  61.72 ( 61.72)	Acc@5  89.06 ( 89.06)
+Test: [ 0/79]	Time  1.243 ( 1.243)	Loss 2.7121e+00 (2.7121e+00)	Acc@1  41.41 ( 41.41)	Acc@5  68.75 ( 68.75)
+ * Acc@1 36.410 Acc@5 62.970
+Adjusting learning rate of group 0 to 7.4327e-02.
+Epoch: [93][ 0/85]	Time  1.370 ( 1.370)	Data  1.306 ( 1.306)	Loss 5.4743e+00 (5.4743e+00)	Acc@1  58.59 ( 58.59)	Acc@5  80.47 ( 80.47)
+Test: [ 0/79]	Time  0.926 ( 0.926)	Loss 2.8217e+00 (2.8217e+00)	Acc@1  32.81 ( 32.81)	Acc@5  60.94 ( 60.94)
+ * Acc@1 35.930 Acc@5 63.880
+Adjusting learning rate of group 0 to 7.2981e-02.
+Epoch: [94][ 0/85]	Time  1.032 ( 1.032)	Data  0.970 ( 0.970)	Loss 4.3455e+00 (4.3455e+00)	Acc@1  65.62 ( 65.62)	Acc@5  88.28 ( 88.28)
+Test: [ 0/79]	Time  1.240 ( 1.240)	Loss 2.3057e+00 (2.3057e+00)	Acc@1  42.19 ( 42.19)	Acc@5  74.22 ( 74.22)
+ * Acc@1 35.000 Acc@5 63.950
+Adjusting learning rate of group 0 to 7.1635e-02.
+Epoch: [95][ 0/85]	Time  1.368 ( 1.368)	Data  1.306 ( 1.306)	Loss 4.9453e+00 (4.9453e+00)	Acc@1  58.59 ( 58.59)	Acc@5  85.16 ( 85.16)
+Test: [ 0/79]	Time  0.927 ( 0.927)	Loss 2.6544e+00 (2.6544e+00)	Acc@1  32.81 ( 32.81)	Acc@5  70.31 ( 70.31)
+ * Acc@1 33.470 Acc@5 62.230
+Adjusting learning rate of group 0 to 7.0291e-02.
+Epoch: [96][ 0/85]	Time  1.355 ( 1.355)	Data  1.290 ( 1.290)	Loss 4.1560e+00 (4.1560e+00)	Acc@1  64.84 ( 64.84)	Acc@5  91.41 ( 91.41)
+Test: [ 0/79]	Time  1.258 ( 1.258)	Loss 2.8748e+00 (2.8748e+00)	Acc@1  34.38 ( 34.38)	Acc@5  66.41 ( 66.41)
+ * Acc@1 35.490 Acc@5 63.650
+Adjusting learning rate of group 0 to 6.8948e-02.
+Epoch: [97][ 0/85]	Time  1.042 ( 1.042)	Data  0.981 ( 0.981)	Loss 5.0764e+00 (5.0764e+00)	Acc@1  54.69 ( 54.69)	Acc@5  89.06 ( 89.06)
+Test: [ 0/79]	Time  0.929 ( 0.929)	Loss 2.6882e+00 (2.6882e+00)	Acc@1  37.50 ( 37.50)	Acc@5  64.84 ( 64.84)
+ * Acc@1 36.280 Acc@5 65.430
+Adjusting learning rate of group 0 to 6.7607e-02.
+Epoch: [98][ 0/85]	Time  1.026 ( 1.026)	Data  0.962 ( 0.962)	Loss 3.8178e+00 (3.8178e+00)	Acc@1  62.50 ( 62.50)	Acc@5  93.75 ( 93.75)
+Test: [ 0/79]	Time  0.928 ( 0.928)	Loss 3.0654e+00 (3.0654e+00)	Acc@1  34.38 ( 34.38)	Acc@5  64.84 ( 64.84)
+ * Acc@1 34.250 Acc@5 63.140
+Adjusting learning rate of group 0 to 6.6268e-02.
+Epoch: [99][ 0/85]	Time  1.032 ( 1.032)	Data  0.968 ( 0.968)	Loss 5.0473e+00 (5.0473e+00)	Acc@1  61.72 ( 61.72)	Acc@5  83.59 ( 83.59)
+Test: [ 0/79]	Time  0.925 ( 0.925)	Loss 2.4290e+00 (2.4290e+00)	Acc@1  52.34 ( 52.34)	Acc@5  75.78 ( 75.78)
+ * Acc@1 36.090 Acc@5 64.120
+Adjusting learning rate of group 0 to 6.4933e-02.
+Epoch: [100][ 0/85]	Time  1.032 ( 1.032)	Data  0.969 ( 0.969)	Loss 4.2934e+00 (4.2934e+00)	Acc@1  59.38 ( 59.38)	Acc@5  88.28 ( 88.28)
+Test: [ 0/79]	Time  1.254 ( 1.254)	Loss 2.9855e+00 (2.9855e+00)	Acc@1  32.03 ( 32.03)	Acc@5  61.72 ( 61.72)
+ * Acc@1 36.310 Acc@5 64.930
+Adjusting learning rate of group 0 to 6.3600e-02.
+Epoch: [101][ 0/85]	Time  1.353 ( 1.353)	Data  1.290 ( 1.290)	Loss 4.7615e+00 (4.7615e+00)	Acc@1  57.81 ( 57.81)	Acc@5  86.72 ( 86.72)
+Test: [ 0/79]	Time  1.240 ( 1.240)	Loss 2.5594e+00 (2.5594e+00)	Acc@1  38.28 ( 38.28)	Acc@5  71.88 ( 71.88)
+ * Acc@1 36.860 Acc@5 65.060
+Adjusting learning rate of group 0 to 6.2271e-02.
+Epoch: [102][ 0/85]	Time  1.372 ( 1.372)	Data  1.311 ( 1.311)	Loss 5.4510e+00 (5.4510e+00)	Acc@1  54.69 ( 54.69)	Acc@5  79.69 ( 79.69)
+Test: [ 0/79]	Time  1.269 ( 1.269)	Loss 3.1767e+00 (3.1767e+00)	Acc@1  29.69 ( 29.69)	Acc@5  63.28 ( 63.28)
+ * Acc@1 34.410 Acc@5 62.750
+Adjusting learning rate of group 0 to 6.0946e-02.
+Epoch: [103][ 0/85]	Time  1.360 ( 1.360)	Data  1.296 ( 1.296)	Loss 4.5390e+00 (4.5390e+00)	Acc@1  61.72 ( 61.72)	Acc@5  89.06 ( 89.06)
+Test: [ 0/79]	Time  1.265 ( 1.265)	Loss 2.4429e+00 (2.4429e+00)	Acc@1  40.62 ( 40.62)	Acc@5  72.66 ( 72.66)
+ * Acc@1 38.060 Acc@5 66.130
+Adjusting learning rate of group 0 to 5.9626e-02.
+Epoch: [104][ 0/85]	Time  1.043 ( 1.043)	Data  0.979 ( 0.979)	Loss 4.8269e+00 (4.8269e+00)	Acc@1  60.16 ( 60.16)	Acc@5  88.28 ( 88.28)
+Test: [ 0/79]	Time  0.939 ( 0.939)	Loss 2.8410e+00 (2.8410e+00)	Acc@1  36.72 ( 36.72)	Acc@5  67.97 ( 67.97)
+ * Acc@1 36.180 Acc@5 63.610
+Adjusting learning rate of group 0 to 5.8311e-02.
+Epoch: [105][ 0/85]	Time  1.049 ( 1.049)	Data  0.978 ( 0.978)	Loss 4.8637e+00 (4.8637e+00)	Acc@1  59.38 ( 59.38)	Acc@5  85.94 ( 85.94)
+Test: [ 0/79]	Time  1.243 ( 1.243)	Loss 2.7819e+00 (2.7819e+00)	Acc@1  36.72 ( 36.72)	Acc@5  62.50 ( 62.50)
+ * Acc@1 35.540 Acc@5 63.240
+Adjusting learning rate of group 0 to 5.7001e-02.
+Epoch: [106][ 0/85]	Time  1.358 ( 1.358)	Data  1.294 ( 1.294)	Loss 4.3510e+00 (4.3510e+00)	Acc@1  60.16 ( 60.16)	Acc@5  87.50 ( 87.50)
+Test: [ 0/79]	Time  0.939 ( 0.939)	Loss 2.9916e+00 (2.9916e+00)	Acc@1  38.28 ( 38.28)	Acc@5  60.94 ( 60.94)
+ * Acc@1 37.410 Acc@5 65.470
+Adjusting learning rate of group 0 to 5.5697e-02.
+Epoch: [107][ 0/85]	Time  1.344 ( 1.344)	Data  1.281 ( 1.281)	Loss 4.9578e+00 (4.9578e+00)	Acc@1  59.38 ( 59.38)	Acc@5  84.38 ( 84.38)
+Test: [ 0/79]	Time  0.934 ( 0.934)	Loss 2.8340e+00 (2.8340e+00)	Acc@1  35.94 ( 35.94)	Acc@5  68.75 ( 68.75)
+ * Acc@1 33.560 Acc@5 62.920
+Adjusting learning rate of group 0 to 5.4399e-02.
+Epoch: [108][ 0/85]	Time  1.346 ( 1.346)	Data  1.282 ( 1.282)	Loss 4.2120e+00 (4.2120e+00)	Acc@1  65.62 ( 65.62)	Acc@5  89.06 ( 89.06)
+Test: [ 0/79]	Time  1.244 ( 1.244)	Loss 2.2953e+00 (2.2953e+00)	Acc@1  45.31 ( 45.31)	Acc@5  67.97 ( 67.97)
+ * Acc@1 39.280 Acc@5 66.650
+Adjusting learning rate of group 0 to 5.3108e-02.
+Epoch: [109][ 0/85]	Time  1.385 ( 1.385)	Data  1.322 ( 1.322)	Loss 3.9013e+00 (3.9013e+00)	Acc@1  71.88 ( 71.88)	Acc@5  90.62 ( 90.62)
+Test: [ 0/79]	Time  1.242 ( 1.242)	Loss 2.8447e+00 (2.8447e+00)	Acc@1  37.50 ( 37.50)	Acc@5  68.75 ( 68.75)
+ * Acc@1 37.370 Acc@5 65.990
+Adjusting learning rate of group 0 to 5.1824e-02.
+Epoch: [110][ 0/85]	Time  1.040 ( 1.040)	Data  0.977 ( 0.977)	Loss 4.5554e+00 (4.5554e+00)	Acc@1  64.06 ( 64.06)	Acc@5  85.94 ( 85.94)
+Test: [ 0/79]	Time  0.931 ( 0.931)	Loss 2.9302e+00 (2.9302e+00)	Acc@1  30.47 ( 30.47)	Acc@5  65.62 ( 65.62)
+ * Acc@1 37.420 Acc@5 65.990
+Adjusting learning rate of group 0 to 5.0547e-02.
+Epoch: [111][ 0/85]	Time  1.037 ( 1.037)	Data  0.973 ( 0.973)	Loss 4.6637e+00 (4.6637e+00)	Acc@1  60.94 ( 60.94)	Acc@5  88.28 ( 88.28)
+Test: [ 0/79]	Time  0.919 ( 0.919)	Loss 2.7246e+00 (2.7246e+00)	Acc@1  41.41 ( 41.41)	Acc@5  71.09 ( 71.09)
+ * Acc@1 38.380 Acc@5 65.610
+Adjusting learning rate of group 0 to 4.9278e-02.
+Epoch: [112][ 0/85]	Time  1.027 ( 1.027)	Data  0.966 ( 0.966)	Loss 4.2296e+00 (4.2296e+00)	Acc@1  63.28 ( 63.28)	Acc@5  89.06 ( 89.06)
+Test: [ 0/79]	Time  1.232 ( 1.232)	Loss 3.0975e+00 (3.0975e+00)	Acc@1  33.59 ( 33.59)	Acc@5  57.81 ( 57.81)
+ * Acc@1 37.680 Acc@5 65.930
+Adjusting learning rate of group 0 to 4.8018e-02.
+Epoch: [113][ 0/85]	Time  1.031 ( 1.031)	Data  0.968 ( 0.968)	Loss 4.7645e+00 (4.7645e+00)	Acc@1  60.94 ( 60.94)	Acc@5  88.28 ( 88.28)
+Test: [ 0/79]	Time  0.921 ( 0.921)	Loss 2.8048e+00 (2.8048e+00)	Acc@1  45.31 ( 45.31)	Acc@5  62.50 ( 62.50)
+ * Acc@1 36.900 Acc@5 64.710
+Adjusting learning rate of group 0 to 4.6766e-02.
+Epoch: [114][ 0/85]	Time  1.360 ( 1.360)	Data  1.298 ( 1.298)	Loss 3.9176e+00 (3.9176e+00)	Acc@1  68.75 ( 68.75)	Acc@5  92.97 ( 92.97)
+Test: [ 0/79]	Time  1.249 ( 1.249)	Loss 2.4872e+00 (2.4872e+00)	Acc@1  38.28 ( 38.28)	Acc@5  66.41 ( 66.41)
+ * Acc@1 37.050 Acc@5 65.580
+Adjusting learning rate of group 0 to 4.5523e-02.
+Epoch: [115][ 0/85]	Time  1.018 ( 1.018)	Data  0.953 ( 0.953)	Loss 4.4709e+00 (4.4709e+00)	Acc@1  64.06 ( 64.06)	Acc@5  89.06 ( 89.06)
+Test: [ 0/79]	Time  0.923 ( 0.923)	Loss 2.7002e+00 (2.7002e+00)	Acc@1  41.41 ( 41.41)	Acc@5  66.41 ( 66.41)
+ * Acc@1 38.580 Acc@5 67.570
+Adjusting learning rate of group 0 to 4.4290e-02.
+Epoch: [116][ 0/85]	Time  1.034 ( 1.034)	Data  0.968 ( 0.968)	Loss 5.2081e+00 (5.2081e+00)	Acc@1  57.81 ( 57.81)	Acc@5  82.81 ( 82.81)
+Test: [ 0/79]	Time  0.934 ( 0.934)	Loss 3.2462e+00 (3.2462e+00)	Acc@1  30.47 ( 30.47)	Acc@5  58.59 ( 58.59)
+ * Acc@1 37.120 Acc@5 64.180
+Adjusting learning rate of group 0 to 4.3067e-02.
+Epoch: [117][ 0/85]	Time  1.349 ( 1.349)	Data  1.284 ( 1.284)	Loss 3.8833e+00 (3.8833e+00)	Acc@1  64.84 ( 64.84)	Acc@5  93.75 ( 93.75)
+Test: [ 0/79]	Time  1.242 ( 1.242)	Loss 2.6046e+00 (2.6046e+00)	Acc@1  43.75 ( 43.75)	Acc@5  67.97 ( 67.97)
+ * Acc@1 40.590 Acc@5 69.660
+Adjusting learning rate of group 0 to 4.1854e-02.
+Epoch: [118][ 0/85]	Time  1.050 ( 1.050)	Data  0.990 ( 0.990)	Loss 3.5285e+00 (3.5285e+00)	Acc@1  72.66 ( 72.66)	Acc@5  94.53 ( 94.53)
+Test: [ 0/79]	Time  0.921 ( 0.921)	Loss 2.3917e+00 (2.3917e+00)	Acc@1  42.19 ( 42.19)	Acc@5  72.66 ( 72.66)
+ * Acc@1 38.800 Acc@5 66.830
+Adjusting learning rate of group 0 to 4.0651e-02.
+Epoch: [119][ 0/85]	Time  1.346 ( 1.346)	Data  1.280 ( 1.280)	Loss 4.1815e+00 (4.1815e+00)	Acc@1  63.28 ( 63.28)	Acc@5  87.50 ( 87.50)
+Test: [ 0/79]	Time  1.248 ( 1.248)	Loss 2.6425e+00 (2.6425e+00)	Acc@1  41.41 ( 41.41)	Acc@5  66.41 ( 66.41)
+ * Acc@1 40.350 Acc@5 68.830
+Adjusting learning rate of group 0 to 3.9460e-02.
+Epoch: [120][ 0/85]	Time  1.054 ( 1.054)	Data  0.991 ( 0.991)	Loss 4.1036e+00 (4.1036e+00)	Acc@1  67.19 ( 67.19)	Acc@5  90.62 ( 90.62)
+Test: [ 0/79]	Time  1.246 ( 1.246)	Loss 2.3389e+00 (2.3389e+00)	Acc@1  42.97 ( 42.97)	Acc@5  73.44 ( 73.44)
+ * Acc@1 40.540 Acc@5 69.720
+Adjusting learning rate of group 0 to 3.8280e-02.
+Epoch: [121][ 0/85]	Time  1.363 ( 1.363)	Data  1.298 ( 1.298)	Loss 3.8383e+00 (3.8383e+00)	Acc@1  67.19 ( 67.19)	Acc@5  91.41 ( 91.41)
+Test: [ 0/79]	Time  1.238 ( 1.238)	Loss 2.6609e+00 (2.6609e+00)	Acc@1  41.41 ( 41.41)	Acc@5  68.75 ( 68.75)
+ * Acc@1 40.530 Acc@5 68.950
+Adjusting learning rate of group 0 to 3.7112e-02.
+Epoch: [122][ 0/85]	Time  1.035 ( 1.035)	Data  0.972 ( 0.972)	Loss 3.6233e+00 (3.6233e+00)	Acc@1  69.53 ( 69.53)	Acc@5  93.75 ( 93.75)
+Test: [ 0/79]	Time  1.253 ( 1.253)	Loss 2.5312e+00 (2.5312e+00)	Acc@1  45.31 ( 45.31)	Acc@5  73.44 ( 73.44)
+ * Acc@1 39.880 Acc@5 68.360
+Adjusting learning rate of group 0 to 3.5956e-02.
+Epoch: [123][ 0/85]	Time  1.352 ( 1.352)	Data  1.290 ( 1.290)	Loss 4.3175e+00 (4.3175e+00)	Acc@1  70.31 ( 70.31)	Acc@5  87.50 ( 87.50)
+Test: [ 0/79]	Time  0.919 ( 0.919)	Loss 2.0831e+00 (2.0831e+00)	Acc@1  46.09 ( 46.09)	Acc@5  77.34 ( 77.34)
+ * Acc@1 43.090 Acc@5 70.700
+Adjusting learning rate of group 0 to 3.4813e-02.
+Epoch: [124][ 0/85]	Time  1.366 ( 1.366)	Data  1.301 ( 1.301)	Loss 3.9695e+00 (3.9695e+00)	Acc@1  67.97 ( 67.97)	Acc@5  91.41 ( 91.41)
+Test: [ 0/79]	Time  1.224 ( 1.224)	Loss 2.6168e+00 (2.6168e+00)	Acc@1  43.75 ( 43.75)	Acc@5  67.97 ( 67.97)
+ * Acc@1 36.770 Acc@5 63.810
+Adjusting learning rate of group 0 to 3.3683e-02.
+Epoch: [125][ 0/85]	Time  1.029 ( 1.029)	Data  0.968 ( 0.968)	Loss 3.2287e+00 (3.2287e+00)	Acc@1  78.12 ( 78.12)	Acc@5  95.31 ( 95.31)
+Test: [ 0/79]	Time  1.259 ( 1.259)	Loss 2.3479e+00 (2.3479e+00)	Acc@1  48.44 ( 48.44)	Acc@5  75.78 ( 75.78)
+ * Acc@1 41.200 Acc@5 69.570
+Adjusting learning rate of group 0 to 3.2566e-02.
+Epoch: [126][ 0/85]	Time  1.340 ( 1.340)	Data  1.278 ( 1.278)	Loss 4.3388e+00 (4.3388e+00)	Acc@1  64.84 ( 64.84)	Acc@5  85.16 ( 85.16)
+Test: [ 0/79]	Time  1.245 ( 1.245)	Loss 2.2008e+00 (2.2008e+00)	Acc@1  44.53 ( 44.53)	Acc@5  74.22 ( 74.22)
+ * Acc@1 41.300 Acc@5 70.430
+Adjusting learning rate of group 0 to 3.1463e-02.
+Epoch: [127][ 0/85]	Time  1.358 ( 1.358)	Data  1.293 ( 1.293)	Loss 3.6933e+00 (3.6933e+00)	Acc@1  70.31 ( 70.31)	Acc@5  91.41 ( 91.41)
+Test: [ 0/79]	Time  0.921 ( 0.921)	Loss 2.8715e+00 (2.8715e+00)	Acc@1  32.81 ( 32.81)	Acc@5  64.84 ( 64.84)
+ * Acc@1 41.070 Acc@5 69.010
+Adjusting learning rate of group 0 to 3.0373e-02.
+Epoch: [128][ 0/85]	Time  1.015 ( 1.015)	Data  0.954 ( 0.954)	Loss 4.3654e+00 (4.3654e+00)	Acc@1  69.53 ( 69.53)	Acc@5  86.72 ( 86.72)
+Test: [ 0/79]	Time  0.930 ( 0.930)	Loss 2.5489e+00 (2.5489e+00)	Acc@1  40.62 ( 40.62)	Acc@5  69.53 ( 69.53)
+ * Acc@1 41.520 Acc@5 71.080
+Adjusting learning rate of group 0 to 2.9298e-02.
+Epoch: [129][ 0/85]	Time  1.024 ( 1.024)	Data  0.963 ( 0.963)	Loss 3.7641e+00 (3.7641e+00)	Acc@1  70.31 ( 70.31)	Acc@5  89.84 ( 89.84)
+Test: [ 0/79]	Time  0.938 ( 0.938)	Loss 2.5446e+00 (2.5446e+00)	Acc@1  39.06 ( 39.06)	Acc@5  65.62 ( 65.62)
+ * Acc@1 40.230 Acc@5 69.190
+Adjusting learning rate of group 0 to 2.8238e-02.
+Epoch: [130][ 0/85]	Time  1.035 ( 1.035)	Data  0.971 ( 0.971)	Loss 3.3028e+00 (3.3028e+00)	Acc@1  75.78 ( 75.78)	Acc@5  92.97 ( 92.97)
+Test: [ 0/79]	Time  1.239 ( 1.239)	Loss 2.8923e+00 (2.8923e+00)	Acc@1  41.41 ( 41.41)	Acc@5  62.50 ( 62.50)
+ * Acc@1 43.090 Acc@5 71.510
+Adjusting learning rate of group 0 to 2.7193e-02.
+Epoch: [131][ 0/85]	Time  1.334 ( 1.334)	Data  1.271 ( 1.271)	Loss 3.7681e+00 (3.7681e+00)	Acc@1  69.53 ( 69.53)	Acc@5  89.84 ( 89.84)
+Test: [ 0/79]	Time  0.916 ( 0.916)	Loss 2.3180e+00 (2.3180e+00)	Acc@1  42.97 ( 42.97)	Acc@5  73.44 ( 73.44)
+ * Acc@1 42.950 Acc@5 71.790
+Adjusting learning rate of group 0 to 2.6164e-02.
+Epoch: [132][ 0/85]	Time  1.346 ( 1.346)	Data  1.280 ( 1.280)	Loss 4.0043e+00 (4.0043e+00)	Acc@1  71.88 ( 71.88)	Acc@5  91.41 ( 91.41)
+Test: [ 0/79]	Time  0.917 ( 0.917)	Loss 2.1430e+00 (2.1430e+00)	Acc@1  47.66 ( 47.66)	Acc@5  76.56 ( 76.56)
+ * Acc@1 42.080 Acc@5 70.440
+Adjusting learning rate of group 0 to 2.5150e-02.
+Epoch: [133][ 0/85]	Time  1.028 ( 1.028)	Data  0.963 ( 0.963)	Loss 3.5176e+00 (3.5176e+00)	Acc@1  71.88 ( 71.88)	Acc@5  92.19 ( 92.19)
+Test: [ 0/79]	Time  1.250 ( 1.250)	Loss 2.8634e+00 (2.8634e+00)	Acc@1  32.81 ( 32.81)	Acc@5  66.41 ( 66.41)
+ * Acc@1 42.330 Acc@5 71.820
+Adjusting learning rate of group 0 to 2.4152e-02.
+Epoch: [134][ 0/85]	Time  1.374 ( 1.374)	Data  1.312 ( 1.312)	Loss 3.7517e+00 (3.7517e+00)	Acc@1  72.66 ( 72.66)	Acc@5  89.84 ( 89.84)
+Test: [ 0/79]	Time  0.923 ( 0.923)	Loss 2.6032e+00 (2.6032e+00)	Acc@1  40.62 ( 40.62)	Acc@5  70.31 ( 70.31)
+ * Acc@1 42.680 Acc@5 70.770
+Adjusting learning rate of group 0 to 2.3170e-02.
+Epoch: [135][ 0/85]	Time  1.029 ( 1.029)	Data  0.966 ( 0.966)	Loss 3.3184e+00 (3.3184e+00)	Acc@1  72.66 ( 72.66)	Acc@5  92.97 ( 92.97)
+Test: [ 0/79]	Time  1.252 ( 1.252)	Loss 2.6716e+00 (2.6716e+00)	Acc@1  42.19 ( 42.19)	Acc@5  67.19 ( 67.19)
+ * Acc@1 43.210 Acc@5 70.760
+Adjusting learning rate of group 0 to 2.2206e-02.
+Epoch: [136][ 0/85]	Time  1.035 ( 1.035)	Data  0.972 ( 0.972)	Loss 3.2327e+00 (3.2327e+00)	Acc@1  74.22 ( 74.22)	Acc@5  92.19 ( 92.19)
+Test: [ 0/79]	Time  1.253 ( 1.253)	Loss 2.2998e+00 (2.2998e+00)	Acc@1  48.44 ( 48.44)	Acc@5  68.75 ( 68.75)
+ * Acc@1 42.810 Acc@5 71.990
+Adjusting learning rate of group 0 to 2.1258e-02.
+Epoch: [137][ 0/85]	Time  1.037 ( 1.037)	Data  0.975 ( 0.975)	Loss 3.3181e+00 (3.3181e+00)	Acc@1  75.00 ( 75.00)	Acc@5  92.97 ( 92.97)
+Test: [ 0/79]	Time  0.915 ( 0.915)	Loss 2.9023e+00 (2.9023e+00)	Acc@1  36.72 ( 36.72)	Acc@5  67.97 ( 67.97)
+ * Acc@1 42.140 Acc@5 70.280
+Adjusting learning rate of group 0 to 2.0327e-02.
+Epoch: [138][ 0/85]	Time  1.043 ( 1.043)	Data  0.980 ( 0.980)	Loss 3.3462e+00 (3.3462e+00)	Acc@1  71.09 ( 71.09)	Acc@5  94.53 ( 94.53)
+Test: [ 0/79]	Time  0.926 ( 0.926)	Loss 2.3854e+00 (2.3854e+00)	Acc@1  42.97 ( 42.97)	Acc@5  73.44 ( 73.44)
+ * Acc@1 43.860 Acc@5 72.250
+Adjusting learning rate of group 0 to 1.9415e-02.
+Epoch: [139][ 0/85]	Time  1.041 ( 1.041)	Data  0.979 ( 0.979)	Loss 3.2314e+00 (3.2314e+00)	Acc@1  78.12 ( 78.12)	Acc@5  92.19 ( 92.19)
+Test: [ 0/79]	Time  0.925 ( 0.925)	Loss 2.4009e+00 (2.4009e+00)	Acc@1  42.19 ( 42.19)	Acc@5  74.22 ( 74.22)
+ * Acc@1 43.640 Acc@5 72.510
+Adjusting learning rate of group 0 to 1.8520e-02.
+Epoch: [140][ 0/85]	Time  1.345 ( 1.345)	Data  1.280 ( 1.280)	Loss 3.1185e+00 (3.1185e+00)	Acc@1  77.34 ( 77.34)	Acc@5  91.41 ( 91.41)
+Test: [ 0/79]	Time  1.241 ( 1.241)	Loss 2.4179e+00 (2.4179e+00)	Acc@1  46.09 ( 46.09)	Acc@5  71.09 ( 71.09)
+ * Acc@1 43.920 Acc@5 72.030
+Adjusting learning rate of group 0 to 1.7643e-02.
+Epoch: [141][ 0/85]	Time  1.032 ( 1.032)	Data  0.972 ( 0.972)	Loss 3.2230e+00 (3.2230e+00)	Acc@1  73.44 ( 73.44)	Acc@5  91.41 ( 91.41)
+Test: [ 0/79]	Time  0.922 ( 0.922)	Loss 2.1504e+00 (2.1504e+00)	Acc@1  48.44 ( 48.44)	Acc@5  77.34 ( 77.34)
+ * Acc@1 45.360 Acc@5 73.680
+Adjusting learning rate of group 0 to 1.6785e-02.
+Epoch: [142][ 0/85]	Time  1.044 ( 1.044)	Data  0.980 ( 0.980)	Loss 2.9315e+00 (2.9315e+00)	Acc@1  77.34 ( 77.34)	Acc@5  93.75 ( 93.75)
+Test: [ 0/79]	Time  1.239 ( 1.239)	Loss 2.4110e+00 (2.4110e+00)	Acc@1  43.75 ( 43.75)	Acc@5  71.09 ( 71.09)
+ * Acc@1 43.520 Acc@5 72.400
+Adjusting learning rate of group 0 to 1.5945e-02.
+Epoch: [143][ 0/85]	Time  1.359 ( 1.359)	Data  1.296 ( 1.296)	Loss 3.2451e+00 (3.2451e+00)	Acc@1  71.88 ( 71.88)	Acc@5  91.41 ( 91.41)
+Test: [ 0/79]	Time  1.253 ( 1.253)	Loss 2.2671e+00 (2.2671e+00)	Acc@1  49.22 ( 49.22)	Acc@5  72.66 ( 72.66)
+ * Acc@1 43.930 Acc@5 72.360
+Adjusting learning rate of group 0 to 1.5125e-02.
+Epoch: [144][ 0/85]	Time  1.030 ( 1.030)	Data  0.969 ( 0.969)	Loss 3.1323e+00 (3.1323e+00)	Acc@1  75.78 ( 75.78)	Acc@5  94.53 ( 94.53)
+Test: [ 0/79]	Time  1.242 ( 1.242)	Loss 2.2813e+00 (2.2813e+00)	Acc@1  48.44 ( 48.44)	Acc@5  74.22 ( 74.22)
+ * Acc@1 44.260 Acc@5 72.690
+Adjusting learning rate of group 0 to 1.4324e-02.
+Epoch: [145][ 0/85]	Time  1.329 ( 1.329)	Data  1.267 ( 1.267)	Loss 3.5592e+00 (3.5592e+00)	Acc@1  71.88 ( 71.88)	Acc@5  93.75 ( 93.75)
+Test: [ 0/79]	Time  1.258 ( 1.258)	Loss 2.4664e+00 (2.4664e+00)	Acc@1  42.97 ( 42.97)	Acc@5  71.88 ( 71.88)
+ * Acc@1 45.240 Acc@5 73.040
+Adjusting learning rate of group 0 to 1.3542e-02.
+Epoch: [146][ 0/85]	Time  1.020 ( 1.020)	Data  0.960 ( 0.960)	Loss 3.4336e+00 (3.4336e+00)	Acc@1  72.66 ( 72.66)	Acc@5  93.75 ( 93.75)
+Test: [ 0/79]	Time  1.261 ( 1.261)	Loss 2.6618e+00 (2.6618e+00)	Acc@1  42.97 ( 42.97)	Acc@5  69.53 ( 69.53)
+ * Acc@1 43.860 Acc@5 72.550
+Adjusting learning rate of group 0 to 1.2780e-02.
+Epoch: [147][ 0/85]	Time  1.352 ( 1.352)	Data  1.289 ( 1.289)	Loss 3.1183e+00 (3.1183e+00)	Acc@1  78.12 ( 78.12)	Acc@5  92.19 ( 92.19)
+Test: [ 0/79]	Time  1.237 ( 1.237)	Loss 2.4195e+00 (2.4195e+00)	Acc@1  42.97 ( 42.97)	Acc@5  70.31 ( 70.31)
+ * Acc@1 44.230 Acc@5 73.100
+Adjusting learning rate of group 0 to 1.2039e-02.
+Epoch: [148][ 0/85]	Time  1.342 ( 1.342)	Data  1.280 ( 1.280)	Loss 3.3534e+00 (3.3534e+00)	Acc@1  75.78 ( 75.78)	Acc@5  89.84 ( 89.84)
+Test: [ 0/79]	Time  0.922 ( 0.922)	Loss 2.3747e+00 (2.3747e+00)	Acc@1  42.19 ( 42.19)	Acc@5  71.88 ( 71.88)
+ * Acc@1 45.870 Acc@5 74.960
+Adjusting learning rate of group 0 to 1.1317e-02.
+Epoch: [149][ 0/85]	Time  1.364 ( 1.364)	Data  1.300 ( 1.300)	Loss 3.7128e+00 (3.7128e+00)	Acc@1  67.97 ( 67.97)	Acc@5  92.19 ( 92.19)
+Test: [ 0/79]	Time  1.263 ( 1.263)	Loss 2.8133e+00 (2.8133e+00)	Acc@1  40.62 ( 40.62)	Acc@5  65.62 ( 65.62)
+ * Acc@1 45.800 Acc@5 73.470
+Adjusting learning rate of group 0 to 1.0616e-02.
+Epoch: [150][ 0/85]	Time  1.029 ( 1.029)	Data  0.964 ( 0.964)	Loss 2.7277e+00 (2.7277e+00)	Acc@1  77.34 ( 77.34)	Acc@5  92.97 ( 92.97)
+Test: [ 0/79]	Time  0.921 ( 0.921)	Loss 2.1084e+00 (2.1084e+00)	Acc@1  50.78 ( 50.78)	Acc@5  78.91 ( 78.91)
+ * Acc@1 46.110 Acc@5 74.890
+Adjusting learning rate of group 0 to 9.9362e-03.
+Epoch: [151][ 0/85]	Time  1.386 ( 1.386)	Data  1.317 ( 1.317)	Loss 3.3158e+00 (3.3158e+00)	Acc@1  72.66 ( 72.66)	Acc@5  90.62 ( 90.62)
+Test: [ 0/79]	Time  1.250 ( 1.250)	Loss 2.3180e+00 (2.3180e+00)	Acc@1  45.31 ( 45.31)	Acc@5  71.88 ( 71.88)
+ * Acc@1 46.200 Acc@5 74.530
+Adjusting learning rate of group 0 to 9.2770e-03.
+Epoch: [152][ 0/85]	Time  1.027 ( 1.027)	Data  0.966 ( 0.966)	Loss 2.7013e+00 (2.7013e+00)	Acc@1  81.25 ( 81.25)	Acc@5  96.09 ( 96.09)
+Test: [ 0/79]	Time  0.920 ( 0.920)	Loss 2.2680e+00 (2.2680e+00)	Acc@1  46.88 ( 46.88)	Acc@5  71.88 ( 71.88)
+ * Acc@1 45.530 Acc@5 73.730
+Adjusting learning rate of group 0 to 8.6390e-03.
+Epoch: [153][ 0/85]	Time  1.036 ( 1.036)	Data  0.975 ( 0.975)	Loss 2.5154e+00 (2.5154e+00)	Acc@1  82.03 ( 82.03)	Acc@5  94.53 ( 94.53)
+Test: [ 0/79]	Time  0.928 ( 0.928)	Loss 2.2888e+00 (2.2888e+00)	Acc@1  42.97 ( 42.97)	Acc@5  76.56 ( 76.56)
+ * Acc@1 46.250 Acc@5 74.590
+Adjusting learning rate of group 0 to 8.0224e-03.
+Epoch: [154][ 0/85]	Time  1.370 ( 1.370)	Data  1.307 ( 1.307)	Loss 2.3746e+00 (2.3746e+00)	Acc@1  84.38 ( 84.38)	Acc@5  96.88 ( 96.88)
+Test: [ 0/79]	Time  1.254 ( 1.254)	Loss 2.7335e+00 (2.7335e+00)	Acc@1  32.03 ( 32.03)	Acc@5  65.62 ( 65.62)
+ * Acc@1 45.800 Acc@5 74.360
+Adjusting learning rate of group 0 to 7.4273e-03.
+Epoch: [155][ 0/85]	Time  1.012 ( 1.012)	Data  0.951 ( 0.951)	Loss 3.2085e+00 (3.2085e+00)	Acc@1  76.56 ( 76.56)	Acc@5  93.75 ( 93.75)
+Test: [ 0/79]	Time  0.917 ( 0.917)	Loss 2.1575e+00 (2.1575e+00)	Acc@1  45.31 ( 45.31)	Acc@5  82.03 ( 82.03)
+ * Acc@1 46.590 Acc@5 75.340
+Adjusting learning rate of group 0 to 6.8541e-03.
+Epoch: [156][ 0/85]	Time  1.043 ( 1.043)	Data  0.979 ( 0.979)	Loss 2.3711e+00 (2.3711e+00)	Acc@1  84.38 ( 84.38)	Acc@5  96.88 ( 96.88)
+Test: [ 0/79]	Time  0.925 ( 0.925)	Loss 1.8941e+00 (1.8941e+00)	Acc@1  51.56 ( 51.56)	Acc@5  75.78 ( 75.78)
+ * Acc@1 45.850 Acc@5 74.580
+Adjusting learning rate of group 0 to 6.3028e-03.
+Epoch: [157][ 0/85]	Time  1.030 ( 1.030)	Data  0.964 ( 0.964)	Loss 3.4832e+00 (3.4832e+00)	Acc@1  71.88 ( 71.88)	Acc@5  92.19 ( 92.19)
+Test: [ 0/79]	Time  0.927 ( 0.927)	Loss 2.5047e+00 (2.5047e+00)	Acc@1  46.09 ( 46.09)	Acc@5  73.44 ( 73.44)
+ * Acc@1 46.370 Acc@5 75.030
+Adjusting learning rate of group 0 to 5.7736e-03.
+Epoch: [158][ 0/85]	Time  1.028 ( 1.028)	Data  0.962 ( 0.962)	Loss 2.6380e+00 (2.6380e+00)	Acc@1  78.91 ( 78.91)	Acc@5  95.31 ( 95.31)
+Test: [ 0/79]	Time  0.929 ( 0.929)	Loss 2.5350e+00 (2.5350e+00)	Acc@1  41.41 ( 41.41)	Acc@5  71.88 ( 71.88)
+ * Acc@1 46.540 Acc@5 74.940
+Adjusting learning rate of group 0 to 5.2668e-03.
+Epoch: [159][ 0/85]	Time  1.018 ( 1.018)	Data  0.954 ( 0.954)	Loss 2.7389e+00 (2.7389e+00)	Acc@1  79.69 ( 79.69)	Acc@5  96.09 ( 96.09)
+Test: [ 0/79]	Time  0.922 ( 0.922)	Loss 1.9742e+00 (1.9742e+00)	Acc@1  45.31 ( 45.31)	Acc@5  81.25 ( 81.25)
+ * Acc@1 46.340 Acc@5 75.060
+Adjusting learning rate of group 0 to 4.7824e-03.
+Epoch: [160][ 0/85]	Time  1.035 ( 1.035)	Data  0.972 ( 0.972)	Loss 3.1479e+00 (3.1479e+00)	Acc@1  75.00 ( 75.00)	Acc@5  92.19 ( 92.19)
+Test: [ 0/79]	Time  1.250 ( 1.250)	Loss 2.5428e+00 (2.5428e+00)	Acc@1  41.41 ( 41.41)	Acc@5  67.97 ( 67.97)
+ * Acc@1 46.890 Acc@5 75.750
+Adjusting learning rate of group 0 to 4.3206e-03.
+Epoch: [161][ 0/85]	Time  1.360 ( 1.360)	Data  1.294 ( 1.294)	Loss 2.5880e+00 (2.5880e+00)	Acc@1  83.59 ( 83.59)	Acc@5  94.53 ( 94.53)
+Test: [ 0/79]	Time  0.913 ( 0.913)	Loss 2.0803e+00 (2.0803e+00)	Acc@1  48.44 ( 48.44)	Acc@5  81.25 ( 81.25)
+ * Acc@1 46.420 Acc@5 75.150
+Adjusting learning rate of group 0 to 3.8817e-03.
+Epoch: [162][ 0/85]	Time  1.033 ( 1.033)	Data  0.972 ( 0.972)	Loss 2.7838e+00 (2.7838e+00)	Acc@1  81.25 ( 81.25)	Acc@5  97.66 ( 97.66)
+Test: [ 0/79]	Time  0.933 ( 0.933)	Loss 2.4458e+00 (2.4458e+00)	Acc@1  41.41 ( 41.41)	Acc@5  75.00 ( 75.00)
+ * Acc@1 46.660 Acc@5 75.460
+Adjusting learning rate of group 0 to 3.4656e-03.
+Epoch: [163][ 0/85]	Time  1.038 ( 1.038)	Data  0.975 ( 0.975)	Loss 2.1200e+00 (2.1200e+00)	Acc@1  82.03 ( 82.03)	Acc@5  96.88 ( 96.88)
+Test: [ 0/79]	Time  0.923 ( 0.923)	Loss 2.3094e+00 (2.3094e+00)	Acc@1  40.62 ( 40.62)	Acc@5  72.66 ( 72.66)
+ * Acc@1 47.050 Acc@5 75.570
+Adjusting learning rate of group 0 to 3.0726e-03.
+Epoch: [164][ 0/85]	Time  1.044 ( 1.044)	Data  0.983 ( 0.983)	Loss 2.3742e+00 (2.3742e+00)	Acc@1  82.81 ( 82.81)	Acc@5  95.31 ( 95.31)
+Test: [ 0/79]	Time  0.934 ( 0.934)	Loss 2.2560e+00 (2.2560e+00)	Acc@1  43.75 ( 43.75)	Acc@5  75.78 ( 75.78)
+ * Acc@1 46.900 Acc@5 75.440
+Adjusting learning rate of group 0 to 2.7028e-03.
+Epoch: [165][ 0/85]	Time  1.039 ( 1.039)	Data  0.974 ( 0.974)	Loss 2.1032e+00 (2.1032e+00)	Acc@1  84.38 ( 84.38)	Acc@5  96.88 ( 96.88)
+Test: [ 0/79]	Time  1.260 ( 1.260)	Loss 2.5429e+00 (2.5429e+00)	Acc@1  41.41 ( 41.41)	Acc@5  75.78 ( 75.78)
+ * Acc@1 47.130 Acc@5 75.970
+Adjusting learning rate of group 0 to 2.3563e-03.
+Epoch: [166][ 0/85]	Time  1.378 ( 1.378)	Data  1.313 ( 1.313)	Loss 2.4188e+00 (2.4188e+00)	Acc@1  82.03 ( 82.03)	Acc@5  96.09 ( 96.09)
+Test: [ 0/79]	Time  1.232 ( 1.232)	Loss 2.2324e+00 (2.2324e+00)	Acc@1  47.66 ( 47.66)	Acc@5  75.78 ( 75.78)
+ * Acc@1 47.290 Acc@5 75.710
+Adjusting learning rate of group 0 to 2.0332e-03.
+Epoch: [167][ 0/85]	Time  1.033 ( 1.033)	Data  0.969 ( 0.969)	Loss 2.7082e+00 (2.7082e+00)	Acc@1  79.69 ( 79.69)	Acc@5  96.88 ( 96.88)
+Test: [ 0/79]	Time  1.244 ( 1.244)	Loss 2.1469e+00 (2.1469e+00)	Acc@1  46.09 ( 46.09)	Acc@5  79.69 ( 79.69)
+ * Acc@1 47.370 Acc@5 75.690
+Adjusting learning rate of group 0 to 1.7336e-03.
+Epoch: [168][ 0/85]	Time  1.043 ( 1.043)	Data  0.980 ( 0.980)	Loss 2.6919e+00 (2.6919e+00)	Acc@1  78.91 ( 78.91)	Acc@5  96.09 ( 96.09)
+Test: [ 0/79]	Time  0.915 ( 0.915)	Loss 2.3438e+00 (2.3438e+00)	Acc@1  49.22 ( 49.22)	Acc@5  75.78 ( 75.78)
+ * Acc@1 47.210 Acc@5 75.870
+Adjusting learning rate of group 0 to 1.4576e-03.
+Epoch: [169][ 0/85]	Time  1.025 ( 1.025)	Data  0.962 ( 0.962)	Loss 2.2249e+00 (2.2249e+00)	Acc@1  82.03 ( 82.03)	Acc@5  96.09 ( 96.09)
+Test: [ 0/79]	Time  0.929 ( 0.929)	Loss 2.2793e+00 (2.2793e+00)	Acc@1  45.31 ( 45.31)	Acc@5  77.34 ( 77.34)
+ * Acc@1 47.280 Acc@5 76.020
+Adjusting learning rate of group 0 to 1.2053e-03.
+Epoch: [170][ 0/85]	Time  1.329 ( 1.329)	Data  1.264 ( 1.264)	Loss 2.7446e+00 (2.7446e+00)	Acc@1  82.81 ( 82.81)	Acc@5  96.09 ( 96.09)
+Test: [ 0/79]	Time  1.243 ( 1.243)	Loss 2.2260e+00 (2.2260e+00)	Acc@1  47.66 ( 47.66)	Acc@5  75.00 ( 75.00)
+ * Acc@1 47.470 Acc@5 75.790
+Adjusting learning rate of group 0 to 9.7678e-04.
+Epoch: [171][ 0/85]	Time  1.384 ( 1.384)	Data  1.319 ( 1.319)	Loss 2.1137e+00 (2.1137e+00)	Acc@1  85.94 ( 85.94)	Acc@5  95.31 ( 95.31)
+Test: [ 0/79]	Time  1.253 ( 1.253)	Loss 2.0492e+00 (2.0492e+00)	Acc@1  52.34 ( 52.34)	Acc@5  75.78 ( 75.78)
+ * Acc@1 47.430 Acc@5 75.770
+Adjusting learning rate of group 0 to 7.7213e-04.
+Epoch: [172][ 0/85]	Time  1.365 ( 1.365)	Data  1.301 ( 1.301)	Loss 2.2429e+00 (2.2429e+00)	Acc@1  84.38 ( 84.38)	Acc@5  96.88 ( 96.88)
+Test: [ 0/79]	Time  0.928 ( 0.928)	Loss 2.1294e+00 (2.1294e+00)	Acc@1  51.56 ( 51.56)	Acc@5  76.56 ( 76.56)
+ * Acc@1 47.470 Acc@5 75.750
+Adjusting learning rate of group 0 to 5.9140e-04.
+Epoch: [173][ 0/85]	Time  1.370 ( 1.370)	Data  1.305 ( 1.305)	Loss 1.9429e+00 (1.9429e+00)	Acc@1  86.72 ( 86.72)	Acc@5  96.09 ( 96.09)
+Test: [ 0/79]	Time  1.257 ( 1.257)	Loss 2.2063e+00 (2.2063e+00)	Acc@1  53.12 ( 53.12)	Acc@5  75.00 ( 75.00)
+ * Acc@1 47.490 Acc@5 75.840
+Adjusting learning rate of group 0 to 4.3465e-04.
+Epoch: [174][ 0/85]	Time  1.373 ( 1.373)	Data  1.309 ( 1.309)	Loss 2.6826e+00 (2.6826e+00)	Acc@1  78.91 ( 78.91)	Acc@5  94.53 ( 94.53)
+Test: [ 0/79]	Time  1.238 ( 1.238)	Loss 2.1757e+00 (2.1757e+00)	Acc@1  46.09 ( 46.09)	Acc@5  78.91 ( 78.91)
+ * Acc@1 47.520 Acc@5 75.750
+Adjusting learning rate of group 0 to 3.0193e-04.
+Epoch: [175][ 0/85]	Time  1.371 ( 1.371)	Data  1.307 ( 1.307)	Loss 2.4999e+00 (2.4999e+00)	Acc@1  81.25 ( 81.25)	Acc@5  94.53 ( 94.53)
+Test: [ 0/79]	Time  0.923 ( 0.923)	Loss 2.1772e+00 (2.1772e+00)	Acc@1  49.22 ( 49.22)	Acc@5  76.56 ( 76.56)
+ * Acc@1 47.490 Acc@5 75.760
+Adjusting learning rate of group 0 to 1.9328e-04.
+Epoch: [176][ 0/85]	Time  1.354 ( 1.354)	Data  1.289 ( 1.289)	Loss 1.6698e+00 (1.6698e+00)	Acc@1  89.06 ( 89.06)	Acc@5  99.22 ( 99.22)
+Test: [ 0/79]	Time  0.919 ( 0.919)	Loss 2.2913e+00 (2.2913e+00)	Acc@1  51.56 ( 51.56)	Acc@5  75.78 ( 75.78)
+ * Acc@1 47.780 Acc@5 75.810
+Adjusting learning rate of group 0 to 1.0874e-04.
+Epoch: [177][ 0/85]	Time  1.047 ( 1.047)	Data  0.985 ( 0.985)	Loss 2.8638e+00 (2.8638e+00)	Acc@1  79.69 ( 79.69)	Acc@5  92.97 ( 92.97)
+Test: [ 0/79]	Time  1.242 ( 1.242)	Loss 2.2445e+00 (2.2445e+00)	Acc@1  45.31 ( 45.31)	Acc@5  77.34 ( 77.34)
+ * Acc@1 47.640 Acc@5 75.780
+Adjusting learning rate of group 0 to 4.8336e-05.
+Epoch: [178][ 0/85]	Time  1.329 ( 1.329)	Data  1.268 ( 1.268)	Loss 2.6559e+00 (2.6559e+00)	Acc@1  78.91 ( 78.91)	Acc@5  96.09 ( 96.09)
+Test: [ 0/79]	Time  1.271 ( 1.271)	Loss 2.3129e+00 (2.3129e+00)	Acc@1  41.41 ( 41.41)	Acc@5  75.00 ( 75.00)
+ * Acc@1 47.550 Acc@5 75.730
+Adjusting learning rate of group 0 to 1.2085e-05.
+Epoch: [179][ 0/85]	Time  1.030 ( 1.030)	Data  0.969 ( 0.969)	Loss 2.1545e+00 (2.1545e+00)	Acc@1  82.03 ( 82.03)	Acc@5  96.88 ( 96.88)
+Test: [ 0/79]	Time  0.930 ( 0.930)	Loss 2.3276e+00 (2.3276e+00)	Acc@1  50.78 ( 50.78)	Acc@5  76.56 ( 76.56)
+ * Acc@1 47.730 Acc@5 75.910
+Adjusting learning rate of group 0 to 0.0000e+00.
+Epoch: [180][ 0/85]	Time  1.303 ( 1.303)	Data  1.274 ( 1.274)	Loss 2.7028e+01 (2.7028e+01)	Acc@1   0.00 (  0.00)	Acc@5   5.47 (  5.47)
+Test: [ 0/79]	Time  0.911 ( 0.911)	Loss 2.4683e+00 (2.4683e+00)	Acc@1  42.19 ( 42.19)	Acc@5  69.53 ( 69.53)
+ * Acc@1 43.180 Acc@5 69.020
+Adjusting learning rate of group 0 to 5.0000e-02.
+Epoch: [181][ 0/85]	Time  1.005 ( 1.005)	Data  0.973 ( 0.973)	Loss 4.6070e+00 (4.6070e+00)	Acc@1  62.50 ( 62.50)	Acc@5  87.50 ( 87.50)
+Test: [ 0/79]	Time  1.231 ( 1.231)	Loss 1.7766e+00 (1.7766e+00)	Acc@1  53.91 ( 53.91)	Acc@5  80.47 ( 80.47)
+ * Acc@1 50.040 Acc@5 78.110
+Adjusting learning rate of group 0 to 6.2500e-02.
+Epoch: [182][ 0/85]	Time  1.334 ( 1.334)	Data  1.301 ( 1.301)	Loss 3.0351e+00 (3.0351e+00)	Acc@1  63.28 ( 63.28)	Acc@5  88.28 ( 88.28)
+Test: [ 0/79]	Time  0.932 ( 0.932)	Loss 2.1547e+00 (2.1547e+00)	Acc@1  46.88 ( 46.88)	Acc@5  77.34 ( 77.34)
+ * Acc@1 50.990 Acc@5 79.860
+Adjusting learning rate of group 0 to 7.5000e-02.
+Epoch: [183][ 0/85]	Time  1.004 ( 1.004)	Data  0.972 ( 0.972)	Loss 2.9379e+00 (2.9379e+00)	Acc@1  72.66 ( 72.66)	Acc@5  93.75 ( 93.75)
+Test: [ 0/79]	Time  0.923 ( 0.923)	Loss 1.7453e+00 (1.7453e+00)	Acc@1  49.22 ( 49.22)	Acc@5  84.38 ( 84.38)
+ * Acc@1 52.750 Acc@5 80.950
+Adjusting learning rate of group 0 to 8.7500e-02.
+Epoch: [184][ 0/85]	Time  1.008 ( 1.008)	Data  0.976 ( 0.976)	Loss 3.1675e+00 (3.1675e+00)	Acc@1  69.53 ( 69.53)	Acc@5  92.19 ( 92.19)
+Test: [ 0/79]	Time  0.924 ( 0.924)	Loss 1.6996e+00 (1.6996e+00)	Acc@1  56.25 ( 56.25)	Acc@5  84.38 ( 84.38)
+ * Acc@1 53.220 Acc@5 81.810
+Adjusting learning rate of group 0 to 1.0000e-01.
+Epoch: [185][ 0/85]	Time  1.338 ( 1.338)	Data  1.305 ( 1.305)	Loss 2.4215e+00 (2.4215e+00)	Acc@1  74.22 ( 74.22)	Acc@5  93.75 ( 93.75)
+Test: [ 0/79]	Time  0.916 ( 0.916)	Loss 1.7688e+00 (1.7688e+00)	Acc@1  52.34 ( 52.34)	Acc@5  83.59 ( 83.59)
+ * Acc@1 52.400 Acc@5 80.740
+Adjusting learning rate of group 0 to 9.8907e-02.
+Epoch: [186][ 0/85]	Time  0.995 ( 0.995)	Data  0.962 ( 0.962)	Loss 2.3654e+00 (2.3654e+00)	Acc@1  79.69 ( 79.69)	Acc@5  93.75 ( 93.75)
+Test: [ 0/79]	Time  0.923 ( 0.923)	Loss 2.0295e+00 (2.0295e+00)	Acc@1  46.88 ( 46.88)	Acc@5  78.12 ( 78.12)
+ * Acc@1 52.810 Acc@5 81.240
+Adjusting learning rate of group 0 to 9.5677e-02.
+Epoch: [187][ 0/85]	Time  1.020 ( 1.020)	Data  0.988 ( 0.988)	Loss 2.5796e+00 (2.5796e+00)	Acc@1  71.09 ( 71.09)	Acc@5  91.41 ( 91.41)
+Test: [ 0/79]	Time  0.929 ( 0.929)	Loss 2.0946e+00 (2.0946e+00)	Acc@1  50.00 ( 50.00)	Acc@5  78.91 ( 78.91)
+ * Acc@1 53.040 Acc@5 81.560
+Adjusting learning rate of group 0 to 9.0451e-02.
+Epoch: [188][ 0/85]	Time  1.318 ( 1.318)	Data  1.286 ( 1.286)	Loss 2.5469e+00 (2.5469e+00)	Acc@1  70.31 ( 70.31)	Acc@5  92.97 ( 92.97)
+Test: [ 0/79]	Time  1.238 ( 1.238)	Loss 1.7634e+00 (1.7634e+00)	Acc@1  53.12 ( 53.12)	Acc@5  81.25 ( 81.25)
+ * Acc@1 53.160 Acc@5 81.970
+Adjusting learning rate of group 0 to 8.3457e-02.
+Epoch: [189][ 0/85]	Time  1.006 ( 1.006)	Data  0.974 ( 0.974)	Loss 2.8474e+00 (2.8474e+00)	Acc@1  74.22 ( 74.22)	Acc@5  92.19 ( 92.19)
+Test: [ 0/79]	Time  0.927 ( 0.927)	Loss 1.4014e+00 (1.4014e+00)	Acc@1  62.50 ( 62.50)	Acc@5  88.28 ( 88.28)
+ * Acc@1 53.850 Acc@5 82.530
+Adjusting learning rate of group 0 to 7.5000e-02.
+Epoch: [190][ 0/85]	Time  1.015 ( 1.015)	Data  0.983 ( 0.983)	Loss 2.6203e+00 (2.6203e+00)	Acc@1  73.44 ( 73.44)	Acc@5  93.75 ( 93.75)
+Test: [ 0/79]	Time  0.934 ( 0.934)	Loss 1.8945e+00 (1.8945e+00)	Acc@1  54.69 ( 54.69)	Acc@5  79.69 ( 79.69)
+ * Acc@1 53.720 Acc@5 82.250
+Adjusting learning rate of group 0 to 6.5451e-02.
+Epoch: [191][ 0/85]	Time  1.011 ( 1.011)	Data  0.978 ( 0.978)	Loss 2.4000e+00 (2.4000e+00)	Acc@1  72.66 ( 72.66)	Acc@5  95.31 ( 95.31)
+Test: [ 0/79]	Time  0.931 ( 0.931)	Loss 1.3502e+00 (1.3502e+00)	Acc@1  57.81 ( 57.81)	Acc@5  92.19 ( 92.19)
+ * Acc@1 54.180 Acc@5 82.280
+Adjusting learning rate of group 0 to 5.5226e-02.
+Epoch: [192][ 0/85]	Time  1.022 ( 1.022)	Data  0.989 ( 0.989)	Loss 2.7349e+00 (2.7349e+00)	Acc@1  76.56 ( 76.56)	Acc@5  92.97 ( 92.97)
+Test: [ 0/79]	Time  0.926 ( 0.926)	Loss 1.8331e+00 (1.8331e+00)	Acc@1  51.56 ( 51.56)	Acc@5  78.91 ( 78.91)
+ * Acc@1 55.130 Acc@5 82.920
+Adjusting learning rate of group 0 to 4.4774e-02.
+Epoch: [193][ 0/85]	Time  1.018 ( 1.018)	Data  0.985 ( 0.985)	Loss 1.5329e+00 (1.5329e+00)	Acc@1  87.50 ( 87.50)	Acc@5  97.66 ( 97.66)
+Test: [ 0/79]	Time  0.933 ( 0.933)	Loss 1.4782e+00 (1.4782e+00)	Acc@1  63.28 ( 63.28)	Acc@5  83.59 ( 83.59)
+ * Acc@1 54.810 Acc@5 83.270
+Adjusting learning rate of group 0 to 3.4549e-02.
+Epoch: [194][ 0/85]	Time  1.318 ( 1.318)	Data  1.285 ( 1.285)	Loss 2.7496e+00 (2.7496e+00)	Acc@1  75.00 ( 75.00)	Acc@5  91.41 ( 91.41)
+Test: [ 0/79]	Time  1.269 ( 1.269)	Loss 1.7162e+00 (1.7162e+00)	Acc@1  56.25 ( 56.25)	Acc@5  82.03 ( 82.03)
+ * Acc@1 55.260 Acc@5 83.050
+Adjusting learning rate of group 0 to 2.5000e-02.
+Epoch: [195][ 0/85]	Time  1.353 ( 1.353)	Data  1.321 ( 1.321)	Loss 2.2658e+00 (2.2658e+00)	Acc@1  81.25 ( 81.25)	Acc@5  90.62 ( 90.62)
+Test: [ 0/79]	Time  0.930 ( 0.930)	Loss 1.7313e+00 (1.7313e+00)	Acc@1  54.69 ( 54.69)	Acc@5  83.59 ( 83.59)
+ * Acc@1 55.460 Acc@5 83.410
+Adjusting learning rate of group 0 to 1.6543e-02.
+Epoch: [196][ 0/85]	Time  1.010 ( 1.010)	Data  0.976 ( 0.976)	Loss 2.0325e+00 (2.0325e+00)	Acc@1  82.81 ( 82.81)	Acc@5  92.97 ( 92.97)
+Test: [ 0/79]	Time  0.930 ( 0.930)	Loss 1.5840e+00 (1.5840e+00)	Acc@1  53.12 ( 53.12)	Acc@5  85.16 ( 85.16)
+ * Acc@1 55.230 Acc@5 83.640
+Adjusting learning rate of group 0 to 9.5492e-03.
+Epoch: [197][ 0/85]	Time  1.317 ( 1.317)	Data  1.284 ( 1.284)	Loss 2.4708e+00 (2.4708e+00)	Acc@1  74.22 ( 74.22)	Acc@5  92.19 ( 92.19)
+Test: [ 0/79]	Time  0.952 ( 0.952)	Loss 1.3966e+00 (1.3966e+00)	Acc@1  64.84 ( 64.84)	Acc@5  83.59 ( 83.59)
+ * Acc@1 55.330 Acc@5 83.720
+Adjusting learning rate of group 0 to 4.3227e-03.
+Epoch: [198][ 0/85]	Time  1.002 ( 1.002)	Data  0.969 ( 0.969)	Loss 2.0189e+00 (2.0189e+00)	Acc@1  78.91 ( 78.91)	Acc@5  96.09 ( 96.09)
+Test: [ 0/79]	Time  1.231 ( 1.231)	Loss 1.5649e+00 (1.5649e+00)	Acc@1  50.78 ( 50.78)	Acc@5  86.72 ( 86.72)
+ * Acc@1 55.490 Acc@5 83.720
+Adjusting learning rate of group 0 to 1.0926e-03.
+Epoch: [199][ 0/85]	Time  1.332 ( 1.332)	Data  1.300 ( 1.300)	Loss 2.6875e+00 (2.6875e+00)	Acc@1  74.22 ( 74.22)	Acc@5  89.84 ( 89.84)
+Test: [ 0/79]	Time  1.222 ( 1.222)	Loss 1.5855e+00 (1.5855e+00)	Acc@1  50.78 ( 50.78)	Acc@5  86.72 ( 86.72)
+ * Acc@1 55.740 Acc@5 83.790
+Adjusting learning rate of group 0 to 0.0000e+00.
+Training Finished, TotalEPOCH=200
+0:26:12.515208
+123
+Files already downloaded and verified
+10847
+Files already downloaded and verified
+Adjusting learning rate of group 0 to 2.5000e-02.
+Adjusting learning rate of group 0 to 3.7500e-02.
+Epoch: [0][ 0/85]	Time  2.972 ( 2.972)	Data  0.555 ( 0.555)	Loss 3.1756e+01 (3.1756e+01)	Acc@1   1.56 (  1.56)	Acc@5   5.47 (  5.47)
+Test: [ 0/79]	Time  0.886 ( 0.886)	Loss 5.4762e+00 (5.4762e+00)	Acc@1   3.91 (  3.91)	Acc@5  11.72 ( 11.72)
+ * Acc@1 2.250 Acc@5 8.330
+Adjusting learning rate of group 0 to 5.0000e-02.
+Epoch: [1][ 0/85]	Time  1.213 ( 1.213)	Data  1.149 ( 1.149)	Loss 1.3047e+01 (1.3047e+01)	Acc@1   6.25 (  6.25)	Acc@5  14.84 ( 14.84)
+Test: [ 0/79]	Time  0.865 ( 0.865)	Loss 5.7086e+00 (5.7086e+00)	Acc@1   2.34 (  2.34)	Acc@5  11.72 ( 11.72)
+ * Acc@1 2.180 Acc@5 8.760
+Adjusting learning rate of group 0 to 7.5000e-02.
+Epoch: [2][ 0/85]	Time  1.004 ( 1.004)	Data  0.940 ( 0.940)	Loss 1.2300e+01 (1.2300e+01)	Acc@1  12.50 ( 12.50)	Acc@5  32.03 ( 32.03)
+Test: [ 0/79]	Time  1.093 ( 1.093)	Loss 5.7704e+00 (5.7704e+00)	Acc@1   1.56 (  1.56)	Acc@5   7.81 (  7.81)
+ * Acc@1 2.220 Acc@5 9.370
+Adjusting learning rate of group 0 to 1.0000e-01.
+Epoch: [3][ 0/85]	Time  0.981 ( 0.981)	Data  0.917 ( 0.917)	Loss 1.2764e+01 (1.2764e+01)	Acc@1   9.38 (  9.38)	Acc@5  24.22 ( 24.22)
+Test: [ 0/79]	Time  0.877 ( 0.877)	Loss 5.5536e+00 (5.5536e+00)	Acc@1   4.69 (  4.69)	Acc@5  19.53 ( 19.53)
+ * Acc@1 3.810 Acc@5 12.510
+Adjusting learning rate of group 0 to 1.2500e-01.
+Epoch: [4][ 0/85]	Time  1.019 ( 1.019)	Data  0.954 ( 0.954)	Loss 1.2553e+01 (1.2553e+01)	Acc@1  11.72 ( 11.72)	Acc@5  28.12 ( 28.12)
+Test: [ 0/79]	Time  0.880 ( 0.880)	Loss 5.3913e+00 (5.3913e+00)	Acc@1   4.69 (  4.69)	Acc@5  15.62 ( 15.62)
+ * Acc@1 3.920 Acc@5 13.650
+Adjusting learning rate of group 0 to 1.5000e-01.
+Epoch: [5][ 0/85]	Time  0.999 ( 0.999)	Data  0.933 ( 0.933)	Loss 1.2287e+01 (1.2287e+01)	Acc@1  10.94 ( 10.94)	Acc@5  31.25 ( 31.25)
+Test: [ 0/79]	Time  0.879 ( 0.879)	Loss 5.7704e+00 (5.7704e+00)	Acc@1   5.47 (  5.47)	Acc@5  15.62 ( 15.62)
+ * Acc@1 5.180 Acc@5 15.870
+Adjusting learning rate of group 0 to 1.4999e-01.
+Epoch: [6][ 0/85]	Time  1.231 ( 1.231)	Data  1.168 ( 1.168)	Loss 1.2637e+01 (1.2637e+01)	Acc@1  10.94 ( 10.94)	Acc@5  26.56 ( 26.56)
+Test: [ 0/79]	Time  1.123 ( 1.123)	Loss 5.7821e+00 (5.7821e+00)	Acc@1   2.34 (  2.34)	Acc@5  14.06 ( 14.06)
+ * Acc@1 5.610 Acc@5 16.490
+Adjusting learning rate of group 0 to 1.4995e-01.
+Epoch: [7][ 0/85]	Time  1.228 ( 1.228)	Data  1.167 ( 1.167)	Loss 1.1568e+01 (1.1568e+01)	Acc@1  15.62 ( 15.62)	Acc@5  30.47 ( 30.47)
+Test: [ 0/79]	Time  0.877 ( 0.877)	Loss 5.2324e+00 (5.2324e+00)	Acc@1   6.25 (  6.25)	Acc@5  21.09 ( 21.09)
+ * Acc@1 6.280 Acc@5 18.980
+Adjusting learning rate of group 0 to 1.4989e-01.
+Epoch: [8][ 0/85]	Time  0.993 ( 0.993)	Data  0.930 ( 0.930)	Loss 1.1772e+01 (1.1772e+01)	Acc@1  14.84 ( 14.84)	Acc@5  38.28 ( 38.28)
+Test: [ 0/79]	Time  0.887 ( 0.887)	Loss 5.2825e+00 (5.2825e+00)	Acc@1   6.25 (  6.25)	Acc@5  19.53 ( 19.53)
+ * Acc@1 8.230 Acc@5 22.370
+Adjusting learning rate of group 0 to 1.4981e-01.
+Epoch: [9][ 0/85]	Time  1.209 ( 1.209)	Data  1.145 ( 1.145)	Loss 1.1606e+01 (1.1606e+01)	Acc@1  10.94 ( 10.94)	Acc@5  32.03 ( 32.03)
+Test: [ 0/79]	Time  0.870 ( 0.870)	Loss 5.3151e+00 (5.3151e+00)	Acc@1   7.81 (  7.81)	Acc@5  21.09 ( 21.09)
+ * Acc@1 7.420 Acc@5 20.970
+Adjusting learning rate of group 0 to 1.4970e-01.
+Epoch: [10][ 0/85]	Time  0.989 ( 0.989)	Data  0.924 ( 0.924)	Loss 1.0859e+01 (1.0859e+01)	Acc@1  17.97 ( 17.97)	Acc@5  40.62 ( 40.62)
+Test: [ 0/79]	Time  0.899 ( 0.899)	Loss 4.8476e+00 (4.8476e+00)	Acc@1  14.06 ( 14.06)	Acc@5  34.38 ( 34.38)
+ * Acc@1 9.170 Acc@5 26.420
+Adjusting learning rate of group 0 to 1.4957e-01.
+Epoch: [11][ 0/85]	Time  1.227 ( 1.227)	Data  1.166 ( 1.166)	Loss 1.0736e+01 (1.0736e+01)	Acc@1  16.41 ( 16.41)	Acc@5  35.94 ( 35.94)
+Test: [ 0/79]	Time  1.120 ( 1.120)	Loss 5.0767e+00 (5.0767e+00)	Acc@1   7.03 (  7.03)	Acc@5  22.66 ( 22.66)
+ * Acc@1 10.670 Acc@5 26.110
+Adjusting learning rate of group 0 to 1.4941e-01.
+Epoch: [12][ 0/85]	Time  0.995 ( 0.995)	Data  0.933 ( 0.933)	Loss 1.0362e+01 (1.0362e+01)	Acc@1  22.66 ( 22.66)	Acc@5  44.53 ( 44.53)
+Test: [ 0/79]	Time  0.881 ( 0.881)	Loss 4.8943e+00 (4.8943e+00)	Acc@1  14.84 ( 14.84)	Acc@5  27.34 ( 27.34)
+ * Acc@1 9.760 Acc@5 23.420
+Adjusting learning rate of group 0 to 1.4923e-01.
+Epoch: [13][ 0/85]	Time  0.997 ( 0.997)	Data  0.927 ( 0.927)	Loss 1.0665e+01 (1.0665e+01)	Acc@1  17.97 ( 17.97)	Acc@5  48.44 ( 48.44)
+Test: [ 0/79]	Time  0.877 ( 0.877)	Loss 4.4688e+00 (4.4688e+00)	Acc@1  14.06 ( 14.06)	Acc@5  34.38 ( 34.38)
+ * Acc@1 10.090 Acc@5 26.880
+Adjusting learning rate of group 0 to 1.4902e-01.
+Epoch: [14][ 0/85]	Time  0.981 ( 0.981)	Data  0.915 ( 0.915)	Loss 1.0029e+01 (1.0029e+01)	Acc@1  17.97 ( 17.97)	Acc@5  53.12 ( 53.12)
+Test: [ 0/79]	Time  0.874 ( 0.874)	Loss 4.8102e+00 (4.8102e+00)	Acc@1  12.50 ( 12.50)	Acc@5  25.00 ( 25.00)
+ * Acc@1 11.630 Acc@5 29.070
+Adjusting learning rate of group 0 to 1.4879e-01.
+Epoch: [15][ 0/85]	Time  1.220 ( 1.220)	Data  1.150 ( 1.150)	Loss 9.4816e+00 (9.4816e+00)	Acc@1  28.12 ( 28.12)	Acc@5  52.34 ( 52.34)
+Test: [ 0/79]	Time  0.891 ( 0.891)	Loss 4.8306e+00 (4.8306e+00)	Acc@1   9.38 (  9.38)	Acc@5  35.16 ( 35.16)
+ * Acc@1 12.970 Acc@5 33.230
+Adjusting learning rate of group 0 to 1.4854e-01.
+Epoch: [16][ 0/85]	Time  0.998 ( 0.998)	Data  0.933 ( 0.933)	Loss 9.5877e+00 (9.5877e+00)	Acc@1  23.44 ( 23.44)	Acc@5  56.25 ( 56.25)
+Test: [ 0/79]	Time  0.905 ( 0.905)	Loss 4.6858e+00 (4.6858e+00)	Acc@1  14.06 ( 14.06)	Acc@5  38.28 ( 38.28)
+ * Acc@1 13.140 Acc@5 34.010
+Adjusting learning rate of group 0 to 1.4827e-01.
+Epoch: [17][ 0/85]	Time  1.220 ( 1.220)	Data  1.155 ( 1.155)	Loss 8.7187e+00 (8.7187e+00)	Acc@1  29.69 ( 29.69)	Acc@5  64.84 ( 64.84)
+Test: [ 0/79]	Time  0.894 ( 0.894)	Loss 4.4389e+00 (4.4389e+00)	Acc@1  16.41 ( 16.41)	Acc@5  42.19 ( 42.19)
+ * Acc@1 14.810 Acc@5 37.110
+Adjusting learning rate of group 0 to 1.4797e-01.
+Epoch: [18][ 0/85]	Time  1.001 ( 1.001)	Data  0.936 ( 0.936)	Loss 8.9300e+00 (8.9300e+00)	Acc@1  32.03 ( 32.03)	Acc@5  57.03 ( 57.03)
+Test: [ 0/79]	Time  1.094 ( 1.094)	Loss 4.5596e+00 (4.5596e+00)	Acc@1  13.28 ( 13.28)	Acc@5  26.56 ( 26.56)
+ * Acc@1 13.230 Acc@5 31.750
+Adjusting learning rate of group 0 to 1.4764e-01.
+Epoch: [19][ 0/85]	Time  0.978 ( 0.978)	Data  0.916 ( 0.916)	Loss 8.6084e+00 (8.6084e+00)	Acc@1  26.56 ( 26.56)	Acc@5  60.94 ( 60.94)
+Test: [ 0/79]	Time  0.874 ( 0.874)	Loss 4.0752e+00 (4.0752e+00)	Acc@1  18.75 ( 18.75)	Acc@5  43.75 ( 43.75)
+ * Acc@1 15.810 Acc@5 36.890
+Adjusting learning rate of group 0 to 1.4730e-01.
+Epoch: [20][ 0/85]	Time  0.984 ( 0.984)	Data  0.919 ( 0.919)	Loss 1.0132e+01 (1.0132e+01)	Acc@1  20.31 ( 20.31)	Acc@5  57.03 ( 57.03)
+Test: [ 0/79]	Time  1.125 ( 1.125)	Loss 3.8656e+00 (3.8656e+00)	Acc@1  21.09 ( 21.09)	Acc@5  51.56 ( 51.56)
+ * Acc@1 16.740 Acc@5 41.080
+Adjusting learning rate of group 0 to 1.4693e-01.
+Epoch: [21][ 0/85]	Time  1.231 ( 1.231)	Data  1.170 ( 1.170)	Loss 9.0211e+00 (9.0211e+00)	Acc@1  28.91 ( 28.91)	Acc@5  63.28 ( 63.28)
+Test: [ 0/79]	Time  0.873 ( 0.873)	Loss 4.1529e+00 (4.1529e+00)	Acc@1  14.84 ( 14.84)	Acc@5  44.53 ( 44.53)
+ * Acc@1 17.210 Acc@5 41.930
+Adjusting learning rate of group 0 to 1.4653e-01.
+Epoch: [22][ 0/85]	Time  0.990 ( 0.990)	Data  0.931 ( 0.931)	Loss 7.7404e+00 (7.7404e+00)	Acc@1  34.38 ( 34.38)	Acc@5  64.84 ( 64.84)
+Test: [ 0/79]	Time  0.893 ( 0.893)	Loss 3.9015e+00 (3.9015e+00)	Acc@1  17.97 ( 17.97)	Acc@5  42.97 ( 42.97)
+ * Acc@1 16.250 Acc@5 39.930
+Adjusting learning rate of group 0 to 1.4612e-01.
+Epoch: [23][ 0/85]	Time  0.988 ( 0.988)	Data  0.923 ( 0.923)	Loss 8.3447e+00 (8.3447e+00)	Acc@1  28.12 ( 28.12)	Acc@5  67.97 ( 67.97)
+Test: [ 0/79]	Time  0.878 ( 0.878)	Loss 4.2235e+00 (4.2235e+00)	Acc@1  21.09 ( 21.09)	Acc@5  41.41 ( 41.41)
+ * Acc@1 18.460 Acc@5 40.240
+Adjusting learning rate of group 0 to 1.4568e-01.
+Epoch: [24][ 0/85]	Time  0.985 ( 0.985)	Data  0.920 ( 0.920)	Loss 8.8106e+00 (8.8106e+00)	Acc@1  31.25 ( 31.25)	Acc@5  58.59 ( 58.59)
+Test: [ 0/79]	Time  0.893 ( 0.893)	Loss 4.4141e+00 (4.4141e+00)	Acc@1  15.62 ( 15.62)	Acc@5  40.62 ( 40.62)
+ * Acc@1 17.450 Acc@5 40.590
+Adjusting learning rate of group 0 to 1.4522e-01.
+Epoch: [25][ 0/85]	Time  1.005 ( 1.005)	Data  0.945 ( 0.945)	Loss 8.7267e+00 (8.7267e+00)	Acc@1  35.16 ( 35.16)	Acc@5  64.84 ( 64.84)
+Test: [ 0/79]	Time  0.882 ( 0.882)	Loss 4.5743e+00 (4.5743e+00)	Acc@1  16.41 ( 16.41)	Acc@5  32.81 ( 32.81)
+ * Acc@1 17.910 Acc@5 40.590
+Adjusting learning rate of group 0 to 1.4473e-01.
+Epoch: [26][ 0/85]	Time  1.029 ( 1.029)	Data  0.962 ( 0.962)	Loss 7.5756e+00 (7.5756e+00)	Acc@1  35.16 ( 35.16)	Acc@5  69.53 ( 69.53)
+Test: [ 0/79]	Time  1.130 ( 1.130)	Loss 3.8690e+00 (3.8690e+00)	Acc@1  21.88 ( 21.88)	Acc@5  46.09 ( 46.09)
+ * Acc@1 22.210 Acc@5 49.100
+Adjusting learning rate of group 0 to 1.4423e-01.
+Epoch: [27][ 0/85]	Time  0.994 ( 0.994)	Data  0.931 ( 0.931)	Loss 7.8661e+00 (7.8661e+00)	Acc@1  40.62 ( 40.62)	Acc@5  68.75 ( 68.75)
+Test: [ 0/79]	Time  0.877 ( 0.877)	Loss 3.7931e+00 (3.7931e+00)	Acc@1  25.78 ( 25.78)	Acc@5  46.09 ( 46.09)
+ * Acc@1 25.340 Acc@5 51.170
+Adjusting learning rate of group 0 to 1.4370e-01.
+Epoch: [28][ 0/85]	Time  1.197 ( 1.197)	Data  1.133 ( 1.133)	Loss 7.3052e+00 (7.3052e+00)	Acc@1  42.97 ( 42.97)	Acc@5  69.53 ( 69.53)
+Test: [ 0/79]	Time  0.862 ( 0.862)	Loss 4.1479e+00 (4.1479e+00)	Acc@1  18.75 ( 18.75)	Acc@5  41.41 ( 41.41)
+ * Acc@1 22.110 Acc@5 48.280
+Adjusting learning rate of group 0 to 1.4315e-01.
+Epoch: [29][ 0/85]	Time  0.972 ( 0.972)	Data  0.908 ( 0.908)	Loss 7.4857e+00 (7.4857e+00)	Acc@1  39.84 ( 39.84)	Acc@5  67.19 ( 67.19)
+Test: [ 0/79]	Time  0.864 ( 0.864)	Loss 3.8806e+00 (3.8806e+00)	Acc@1  20.31 ( 20.31)	Acc@5  44.53 ( 44.53)
+ * Acc@1 19.040 Acc@5 45.000
+Adjusting learning rate of group 0 to 1.4257e-01.
+Epoch: [30][ 0/85]	Time  0.970 ( 0.970)	Data  0.907 ( 0.907)	Loss 7.2086e+00 (7.2086e+00)	Acc@1  39.84 ( 39.84)	Acc@5  75.00 ( 75.00)
+Test: [ 0/79]	Time  1.116 ( 1.116)	Loss 3.7781e+00 (3.7781e+00)	Acc@1  20.31 ( 20.31)	Acc@5  46.09 ( 46.09)
+ * Acc@1 23.990 Acc@5 49.650
+Adjusting learning rate of group 0 to 1.4198e-01.
+Epoch: [31][ 0/85]	Time  1.234 ( 1.234)	Data  1.170 ( 1.170)	Loss 7.5621e+00 (7.5621e+00)	Acc@1  39.06 ( 39.06)	Acc@5  71.09 ( 71.09)
+Test: [ 0/79]	Time  0.869 ( 0.869)	Loss 3.7646e+00 (3.7646e+00)	Acc@1  26.56 ( 26.56)	Acc@5  50.78 ( 50.78)
+ * Acc@1 23.140 Acc@5 49.440
+Adjusting learning rate of group 0 to 1.4136e-01.
+Epoch: [32][ 0/85]	Time  1.209 ( 1.209)	Data  1.145 ( 1.145)	Loss 7.2870e+00 (7.2870e+00)	Acc@1  42.19 ( 42.19)	Acc@5  74.22 ( 74.22)
+Test: [ 0/79]	Time  1.119 ( 1.119)	Loss 3.5502e+00 (3.5502e+00)	Acc@1  23.44 ( 23.44)	Acc@5  49.22 ( 49.22)
+ * Acc@1 22.480 Acc@5 48.890
+Adjusting learning rate of group 0 to 1.4072e-01.
+Epoch: [33][ 0/85]	Time  0.971 ( 0.971)	Data  0.909 ( 0.909)	Loss 6.3541e+00 (6.3541e+00)	Acc@1  46.88 ( 46.88)	Acc@5  75.78 ( 75.78)
+Test: [ 0/79]	Time  0.879 ( 0.879)	Loss 3.7695e+00 (3.7695e+00)	Acc@1  27.34 ( 27.34)	Acc@5  46.88 ( 46.88)
+ * Acc@1 25.860 Acc@5 54.210
+Adjusting learning rate of group 0 to 1.4006e-01.
+Epoch: [34][ 0/85]	Time  1.241 ( 1.241)	Data  1.176 ( 1.176)	Loss 6.8774e+00 (6.8774e+00)	Acc@1  43.75 ( 43.75)	Acc@5  74.22 ( 74.22)
+Test: [ 0/79]	Time  1.128 ( 1.128)	Loss 3.5113e+00 (3.5113e+00)	Acc@1  23.44 ( 23.44)	Acc@5  57.81 ( 57.81)
+ * Acc@1 24.140 Acc@5 50.050
+Adjusting learning rate of group 0 to 1.3938e-01.
+Epoch: [35][ 0/85]	Time  1.228 ( 1.228)	Data  1.166 ( 1.166)	Loss 7.3168e+00 (7.3168e+00)	Acc@1  43.75 ( 43.75)	Acc@5  68.75 ( 68.75)
+Test: [ 0/79]	Time  1.124 ( 1.124)	Loss 3.4478e+00 (3.4478e+00)	Acc@1  25.00 ( 25.00)	Acc@5  50.78 ( 50.78)
+ * Acc@1 24.610 Acc@5 51.790
+Adjusting learning rate of group 0 to 1.3868e-01.
+Epoch: [36][ 0/85]	Time  1.242 ( 1.242)	Data  1.170 ( 1.170)	Loss 6.9750e+00 (6.9750e+00)	Acc@1  46.09 ( 46.09)	Acc@5  73.44 ( 73.44)
+Test: [ 0/79]	Time  1.123 ( 1.123)	Loss 3.8476e+00 (3.8476e+00)	Acc@1  18.75 ( 18.75)	Acc@5  47.66 ( 47.66)
+ * Acc@1 24.550 Acc@5 50.220
+Adjusting learning rate of group 0 to 1.3796e-01.
+Epoch: [37][ 0/85]	Time  1.221 ( 1.221)	Data  1.160 ( 1.160)	Loss 7.2116e+00 (7.2116e+00)	Acc@1  50.00 ( 50.00)	Acc@5  68.75 ( 68.75)
+Test: [ 0/79]	Time  0.866 ( 0.866)	Loss 3.3785e+00 (3.3785e+00)	Acc@1  21.09 ( 21.09)	Acc@5  53.12 ( 53.12)
+ * Acc@1 21.670 Acc@5 49.170
+Adjusting learning rate of group 0 to 1.3722e-01.
+Epoch: [38][ 0/85]	Time  0.970 ( 0.970)	Data  0.908 ( 0.908)	Loss 6.5621e+00 (6.5621e+00)	Acc@1  51.56 ( 51.56)	Acc@5  75.78 ( 75.78)
+Test: [ 0/79]	Time  0.860 ( 0.860)	Loss 3.5638e+00 (3.5638e+00)	Acc@1  24.22 ( 24.22)	Acc@5  43.75 ( 43.75)
+ * Acc@1 27.030 Acc@5 54.380
+Adjusting learning rate of group 0 to 1.3646e-01.
+Epoch: [39][ 0/85]	Time  1.005 ( 1.005)	Data  0.944 ( 0.944)	Loss 6.5483e+00 (6.5483e+00)	Acc@1  43.75 ( 43.75)	Acc@5  78.12 ( 78.12)
+Test: [ 0/79]	Time  1.112 ( 1.112)	Loss 3.0191e+00 (3.0191e+00)	Acc@1  28.12 ( 28.12)	Acc@5  59.38 ( 59.38)
+ * Acc@1 27.200 Acc@5 54.580
+Adjusting learning rate of group 0 to 1.3568e-01.
+Epoch: [40][ 0/85]	Time  0.976 ( 0.976)	Data  0.911 ( 0.911)	Loss 6.0613e+00 (6.0613e+00)	Acc@1  51.56 ( 51.56)	Acc@5  80.47 ( 80.47)
+Test: [ 0/79]	Time  1.110 ( 1.110)	Loss 4.0634e+00 (4.0634e+00)	Acc@1  20.31 ( 20.31)	Acc@5  39.84 ( 39.84)
+ * Acc@1 21.840 Acc@5 48.050
+Adjusting learning rate of group 0 to 1.3488e-01.
+Epoch: [41][ 0/85]	Time  1.217 ( 1.217)	Data  1.152 ( 1.152)	Loss 6.4446e+00 (6.4446e+00)	Acc@1  43.75 ( 43.75)	Acc@5  77.34 ( 77.34)
+Test: [ 0/79]	Time  0.868 ( 0.868)	Loss 3.5743e+00 (3.5743e+00)	Acc@1  23.44 ( 23.44)	Acc@5  53.91 ( 53.91)
+ * Acc@1 26.660 Acc@5 54.090
+Adjusting learning rate of group 0 to 1.3405e-01.
+Epoch: [42][ 0/85]	Time  1.226 ( 1.226)	Data  1.161 ( 1.161)	Loss 6.6442e+00 (6.6442e+00)	Acc@1  43.75 ( 43.75)	Acc@5  75.00 ( 75.00)
+Test: [ 0/79]	Time  1.122 ( 1.122)	Loss 3.2191e+00 (3.2191e+00)	Acc@1  22.66 ( 22.66)	Acc@5  56.25 ( 56.25)
+ * Acc@1 26.790 Acc@5 55.740
+Adjusting learning rate of group 0 to 1.3322e-01.
+Epoch: [43][ 0/85]	Time  0.995 ( 0.995)	Data  0.932 ( 0.932)	Loss 7.5807e+00 (7.5807e+00)	Acc@1  39.84 ( 39.84)	Acc@5  68.75 ( 68.75)
+Test: [ 0/79]	Time  0.893 ( 0.893)	Loss 3.0762e+00 (3.0762e+00)	Acc@1  29.69 ( 29.69)	Acc@5  55.47 ( 55.47)
+ * Acc@1 26.060 Acc@5 54.840
+Adjusting learning rate of group 0 to 1.3236e-01.
+Epoch: [44][ 0/85]	Time  1.222 ( 1.222)	Data  1.159 ( 1.159)	Loss 6.5931e+00 (6.5931e+00)	Acc@1  50.00 ( 50.00)	Acc@5  77.34 ( 77.34)
+Test: [ 0/79]	Time  1.130 ( 1.130)	Loss 3.4915e+00 (3.4915e+00)	Acc@1  27.34 ( 27.34)	Acc@5  50.00 ( 50.00)
+ * Acc@1 28.640 Acc@5 55.910
+Adjusting learning rate of group 0 to 1.3148e-01.
+Epoch: [45][ 0/85]	Time  1.238 ( 1.238)	Data  1.176 ( 1.176)	Loss 6.2565e+00 (6.2565e+00)	Acc@1  51.56 ( 51.56)	Acc@5  77.34 ( 77.34)
+Test: [ 0/79]	Time  1.107 ( 1.107)	Loss 3.0976e+00 (3.0976e+00)	Acc@1  29.69 ( 29.69)	Acc@5  58.59 ( 58.59)
+ * Acc@1 28.750 Acc@5 57.600
+Adjusting learning rate of group 0 to 1.3059e-01.
+Epoch: [46][ 0/85]	Time  0.972 ( 0.972)	Data  0.911 ( 0.911)	Loss 5.8919e+00 (5.8919e+00)	Acc@1  57.03 ( 57.03)	Acc@5  78.12 ( 78.12)
+Test: [ 0/79]	Time  0.865 ( 0.865)	Loss 3.2668e+00 (3.2668e+00)	Acc@1  32.03 ( 32.03)	Acc@5  51.56 ( 51.56)
+ * Acc@1 27.940 Acc@5 58.280
+Adjusting learning rate of group 0 to 1.2967e-01.
+Epoch: [47][ 0/85]	Time  0.978 ( 0.978)	Data  0.916 ( 0.916)	Loss 6.6696e+00 (6.6696e+00)	Acc@1  43.75 ( 43.75)	Acc@5  75.00 ( 75.00)
+Test: [ 0/79]	Time  0.869 ( 0.869)	Loss 3.6443e+00 (3.6443e+00)	Acc@1  24.22 ( 24.22)	Acc@5  50.78 ( 50.78)
+ * Acc@1 27.790 Acc@5 54.970
+Adjusting learning rate of group 0 to 1.2874e-01.
+Epoch: [48][ 0/85]	Time  1.235 ( 1.235)	Data  1.170 ( 1.170)	Loss 6.6837e+00 (6.6837e+00)	Acc@1  46.88 ( 46.88)	Acc@5  75.78 ( 75.78)
+Test: [ 0/79]	Time  1.112 ( 1.112)	Loss 3.3182e+00 (3.3182e+00)	Acc@1  32.03 ( 32.03)	Acc@5  56.25 ( 56.25)
+ * Acc@1 26.090 Acc@5 52.400
+Adjusting learning rate of group 0 to 1.2779e-01.
+Epoch: [49][ 0/85]	Time  0.978 ( 0.978)	Data  0.915 ( 0.915)	Loss 6.5312e+00 (6.5312e+00)	Acc@1  47.66 ( 47.66)	Acc@5  77.34 ( 77.34)
+Test: [ 0/79]	Time  0.861 ( 0.861)	Loss 2.7169e+00 (2.7169e+00)	Acc@1  33.59 ( 33.59)	Acc@5  63.28 ( 63.28)
+ * Acc@1 28.250 Acc@5 56.050
+Adjusting learning rate of group 0 to 1.2683e-01.
+Epoch: [50][ 0/85]	Time  0.967 ( 0.967)	Data  0.903 ( 0.903)	Loss 5.5735e+00 (5.5735e+00)	Acc@1  52.34 ( 52.34)	Acc@5  80.47 ( 80.47)
+Test: [ 0/79]	Time  1.123 ( 1.123)	Loss 3.3569e+00 (3.3569e+00)	Acc@1  27.34 ( 27.34)	Acc@5  50.00 ( 50.00)
+ * Acc@1 23.920 Acc@5 48.690
+Adjusting learning rate of group 0 to 1.2585e-01.
+Epoch: [51][ 0/85]	Time  1.221 ( 1.221)	Data  1.158 ( 1.158)	Loss 6.7793e+00 (6.7793e+00)	Acc@1  47.66 ( 47.66)	Acc@5  72.66 ( 72.66)
+Test: [ 0/79]	Time  1.136 ( 1.136)	Loss 3.4237e+00 (3.4237e+00)	Acc@1  31.25 ( 31.25)	Acc@5  57.03 ( 57.03)
+ * Acc@1 31.350 Acc@5 58.100
+Adjusting learning rate of group 0 to 1.2485e-01.
+Epoch: [52][ 0/85]	Time  1.245 ( 1.245)	Data  1.180 ( 1.180)	Loss 6.5733e+00 (6.5733e+00)	Acc@1  46.88 ( 46.88)	Acc@5  79.69 ( 79.69)
+Test: [ 0/79]	Time  1.140 ( 1.140)	Loss 3.4266e+00 (3.4266e+00)	Acc@1  25.00 ( 25.00)	Acc@5  53.12 ( 53.12)
+ * Acc@1 27.120 Acc@5 54.610
+Adjusting learning rate of group 0 to 1.2384e-01.
+Epoch: [53][ 0/85]	Time  1.236 ( 1.236)	Data  1.173 ( 1.173)	Loss 6.2352e+00 (6.2352e+00)	Acc@1  49.22 ( 49.22)	Acc@5  82.81 ( 82.81)
+Test: [ 0/79]	Time  1.114 ( 1.114)	Loss 2.6844e+00 (2.6844e+00)	Acc@1  33.59 ( 33.59)	Acc@5  68.75 ( 68.75)
+ * Acc@1 31.460 Acc@5 58.360
+Adjusting learning rate of group 0 to 1.2281e-01.
+Epoch: [54][ 0/85]	Time  1.245 ( 1.245)	Data  1.181 ( 1.181)	Loss 6.1411e+00 (6.1411e+00)	Acc@1  50.78 ( 50.78)	Acc@5  78.91 ( 78.91)
+Test: [ 0/79]	Time  1.123 ( 1.123)	Loss 3.4383e+00 (3.4383e+00)	Acc@1  27.34 ( 27.34)	Acc@5  53.12 ( 53.12)
+ * Acc@1 27.870 Acc@5 54.440
+Adjusting learning rate of group 0 to 1.2176e-01.
+Epoch: [55][ 0/85]	Time  0.994 ( 0.994)	Data  0.933 ( 0.933)	Loss 5.6187e+00 (5.6187e+00)	Acc@1  52.34 ( 52.34)	Acc@5  81.25 ( 81.25)
+Test: [ 0/79]	Time  0.871 ( 0.871)	Loss 3.3298e+00 (3.3298e+00)	Acc@1  31.25 ( 31.25)	Acc@5  54.69 ( 54.69)
+ * Acc@1 27.440 Acc@5 55.280
+Adjusting learning rate of group 0 to 1.2070e-01.
+Epoch: [56][ 0/85]	Time  0.985 ( 0.985)	Data  0.923 ( 0.923)	Loss 5.5243e+00 (5.5243e+00)	Acc@1  53.12 ( 53.12)	Acc@5  82.03 ( 82.03)
+Test: [ 0/79]	Time  0.872 ( 0.872)	Loss 3.2196e+00 (3.2196e+00)	Acc@1  32.03 ( 32.03)	Acc@5  57.03 ( 57.03)
+ * Acc@1 26.560 Acc@5 54.990
+Adjusting learning rate of group 0 to 1.1963e-01.
+Epoch: [57][ 0/85]	Time  0.977 ( 0.977)	Data  0.913 ( 0.913)	Loss 6.1463e+00 (6.1463e+00)	Acc@1  45.31 ( 45.31)	Acc@5  82.03 ( 82.03)
+Test: [ 0/79]	Time  0.864 ( 0.864)	Loss 3.7782e+00 (3.7782e+00)	Acc@1  21.88 ( 21.88)	Acc@5  50.78 ( 50.78)
+ * Acc@1 25.600 Acc@5 54.170
+Adjusting learning rate of group 0 to 1.1854e-01.
+Epoch: [58][ 0/85]	Time  1.236 ( 1.236)	Data  1.170 ( 1.170)	Loss 6.6483e+00 (6.6483e+00)	Acc@1  45.31 ( 45.31)	Acc@5  79.69 ( 79.69)
+Test: [ 0/79]	Time  0.863 ( 0.863)	Loss 2.9309e+00 (2.9309e+00)	Acc@1  31.25 ( 31.25)	Acc@5  60.16 ( 60.16)
+ * Acc@1 31.700 Acc@5 59.830
+Adjusting learning rate of group 0 to 1.1743e-01.
+Epoch: [59][ 0/85]	Time  1.006 ( 1.006)	Data  0.943 ( 0.943)	Loss 6.3663e+00 (6.3663e+00)	Acc@1  46.88 ( 46.88)	Acc@5  75.78 ( 75.78)
+Test: [ 0/79]	Time  0.889 ( 0.889)	Loss 2.7667e+00 (2.7667e+00)	Acc@1  34.38 ( 34.38)	Acc@5  64.06 ( 64.06)
+ * Acc@1 30.640 Acc@5 58.340
+Adjusting learning rate of group 0 to 1.1632e-01.
+Epoch: [60][ 0/85]	Time  0.966 ( 0.966)	Data  0.903 ( 0.903)	Loss 5.6093e+00 (5.6093e+00)	Acc@1  53.12 ( 53.12)	Acc@5  82.03 ( 82.03)
+Test: [ 0/79]	Time  0.866 ( 0.866)	Loss 3.0281e+00 (3.0281e+00)	Acc@1  32.03 ( 32.03)	Acc@5  63.28 ( 63.28)
+ * Acc@1 29.430 Acc@5 57.170
+Adjusting learning rate of group 0 to 1.1519e-01.
+Epoch: [61][ 0/85]	Time  1.236 ( 1.236)	Data  1.170 ( 1.170)	Loss 5.5225e+00 (5.5225e+00)	Acc@1  52.34 ( 52.34)	Acc@5  82.81 ( 82.81)
+Test: [ 0/79]	Time  1.109 ( 1.109)	Loss 3.1546e+00 (3.1546e+00)	Acc@1  26.56 ( 26.56)	Acc@5  60.16 ( 60.16)
+ * Acc@1 30.050 Acc@5 58.910
+Adjusting learning rate of group 0 to 1.1404e-01.
+Epoch: [62][ 0/85]	Time  0.974 ( 0.974)	Data  0.909 ( 0.909)	Loss 6.0622e+00 (6.0622e+00)	Acc@1  53.91 ( 53.91)	Acc@5  83.59 ( 83.59)
+Test: [ 0/79]	Time  0.887 ( 0.887)	Loss 2.6866e+00 (2.6866e+00)	Acc@1  39.84 ( 39.84)	Acc@5  70.31 ( 70.31)
+ * Acc@1 30.480 Acc@5 58.370
+Adjusting learning rate of group 0 to 1.1289e-01.
+Epoch: [63][ 0/85]	Time  0.968 ( 0.968)	Data  0.904 ( 0.904)	Loss 6.0913e+00 (6.0913e+00)	Acc@1  43.75 ( 43.75)	Acc@5  78.12 ( 78.12)
+Test: [ 0/79]	Time  0.869 ( 0.869)	Loss 3.4331e+00 (3.4331e+00)	Acc@1  31.25 ( 31.25)	Acc@5  53.12 ( 53.12)
+ * Acc@1 31.150 Acc@5 57.550
+Adjusting learning rate of group 0 to 1.1172e-01.
+Epoch: [64][ 0/85]	Time  0.978 ( 0.978)	Data  0.914 ( 0.914)	Loss 5.1644e+00 (5.1644e+00)	Acc@1  56.25 ( 56.25)	Acc@5  85.16 ( 85.16)
+Test: [ 0/79]	Time  1.113 ( 1.113)	Loss 3.3043e+00 (3.3043e+00)	Acc@1  29.69 ( 29.69)	Acc@5  51.56 ( 51.56)
+ * Acc@1 29.650 Acc@5 56.540
+Adjusting learning rate of group 0 to 1.1054e-01.
+Epoch: [65][ 0/85]	Time  1.239 ( 1.239)	Data  1.170 ( 1.170)	Loss 5.6344e+00 (5.6344e+00)	Acc@1  54.69 ( 54.69)	Acc@5  83.59 ( 83.59)
+Test: [ 0/79]	Time  1.121 ( 1.121)	Loss 3.2799e+00 (3.2799e+00)	Acc@1  28.91 ( 28.91)	Acc@5  55.47 ( 55.47)
+ * Acc@1 31.200 Acc@5 58.470
+Adjusting learning rate of group 0 to 1.0935e-01.
+Epoch: [66][ 0/85]	Time  1.227 ( 1.227)	Data  1.163 ( 1.163)	Loss 5.6703e+00 (5.6703e+00)	Acc@1  56.25 ( 56.25)	Acc@5  78.12 ( 78.12)
+Test: [ 0/79]	Time  1.118 ( 1.118)	Loss 2.6083e+00 (2.6083e+00)	Acc@1  33.59 ( 33.59)	Acc@5  67.97 ( 67.97)
+ * Acc@1 34.250 Acc@5 62.000
+Adjusting learning rate of group 0 to 1.0815e-01.
+Epoch: [67][ 0/85]	Time  1.237 ( 1.237)	Data  1.174 ( 1.174)	Loss 5.2175e+00 (5.2175e+00)	Acc@1  56.25 ( 56.25)	Acc@5  84.38 ( 84.38)
+Test: [ 0/79]	Time  1.121 ( 1.121)	Loss 3.3938e+00 (3.3938e+00)	Acc@1  33.59 ( 33.59)	Acc@5  54.69 ( 54.69)
+ * Acc@1 30.660 Acc@5 59.270
+Adjusting learning rate of group 0 to 1.0693e-01.
+Epoch: [68][ 0/85]	Time  0.975 ( 0.975)	Data  0.914 ( 0.914)	Loss 5.8111e+00 (5.8111e+00)	Acc@1  55.47 ( 55.47)	Acc@5  81.25 ( 81.25)
+Test: [ 0/79]	Time  0.862 ( 0.862)	Loss 2.8423e+00 (2.8423e+00)	Acc@1  34.38 ( 34.38)	Acc@5  57.81 ( 57.81)
+ * Acc@1 32.900 Acc@5 60.470
+Adjusting learning rate of group 0 to 1.0571e-01.
+Epoch: [69][ 0/85]	Time  1.230 ( 1.230)	Data  1.167 ( 1.167)	Loss 5.9040e+00 (5.9040e+00)	Acc@1  50.00 ( 50.00)	Acc@5  80.47 ( 80.47)
+Test: [ 0/79]	Time  0.861 ( 0.861)	Loss 3.3600e+00 (3.3600e+00)	Acc@1  30.47 ( 30.47)	Acc@5  51.56 ( 51.56)
+ * Acc@1 30.800 Acc@5 56.660
+Adjusting learning rate of group 0 to 1.0448e-01.
+Epoch: [70][ 0/85]	Time  0.972 ( 0.972)	Data  0.911 ( 0.911)	Loss 5.7789e+00 (5.7789e+00)	Acc@1  54.69 ( 54.69)	Acc@5  82.81 ( 82.81)
+Test: [ 0/79]	Time  1.121 ( 1.121)	Loss 3.1965e+00 (3.1965e+00)	Acc@1  27.34 ( 27.34)	Acc@5  56.25 ( 56.25)
+ * Acc@1 32.170 Acc@5 60.140
+Adjusting learning rate of group 0 to 1.0323e-01.
+Epoch: [71][ 0/85]	Time  0.963 ( 0.963)	Data  0.899 ( 0.899)	Loss 5.6935e+00 (5.6935e+00)	Acc@1  50.78 ( 50.78)	Acc@5  81.25 ( 81.25)
+Test: [ 0/79]	Time  0.862 ( 0.862)	Loss 3.1240e+00 (3.1240e+00)	Acc@1  33.59 ( 33.59)	Acc@5  58.59 ( 58.59)
+ * Acc@1 33.250 Acc@5 59.580
+Adjusting learning rate of group 0 to 1.0198e-01.
+Epoch: [72][ 0/85]	Time  1.231 ( 1.231)	Data  1.167 ( 1.167)	Loss 5.1304e+00 (5.1304e+00)	Acc@1  57.03 ( 57.03)	Acc@5  85.94 ( 85.94)
+Test: [ 0/79]	Time  0.861 ( 0.861)	Loss 2.8602e+00 (2.8602e+00)	Acc@1  36.72 ( 36.72)	Acc@5  63.28 ( 63.28)
+ * Acc@1 31.380 Acc@5 59.970
+Adjusting learning rate of group 0 to 1.0072e-01.
+Epoch: [73][ 0/85]	Time  1.224 ( 1.224)	Data  1.163 ( 1.163)	Loss 4.9874e+00 (4.9874e+00)	Acc@1  60.16 ( 60.16)	Acc@5  84.38 ( 84.38)
+Test: [ 0/79]	Time  1.127 ( 1.127)	Loss 3.2670e+00 (3.2670e+00)	Acc@1  26.56 ( 26.56)	Acc@5  58.59 ( 58.59)
+ * Acc@1 30.200 Acc@5 58.350
+Adjusting learning rate of group 0 to 9.9453e-02.
+Epoch: [74][ 0/85]	Time  1.222 ( 1.222)	Data  1.159 ( 1.159)	Loss 4.8576e+00 (4.8576e+00)	Acc@1  63.28 ( 63.28)	Acc@5  88.28 ( 88.28)
+Test: [ 0/79]	Time  1.115 ( 1.115)	Loss 2.9877e+00 (2.9877e+00)	Acc@1  35.16 ( 35.16)	Acc@5  58.59 ( 58.59)
+ * Acc@1 32.940 Acc@5 62.450
+Adjusting learning rate of group 0 to 9.8176e-02.
+Epoch: [75][ 0/85]	Time  0.966 ( 0.966)	Data  0.904 ( 0.904)	Loss 5.8683e+00 (5.8683e+00)	Acc@1  53.12 ( 53.12)	Acc@5  78.12 ( 78.12)
+Test: [ 0/79]	Time  1.115 ( 1.115)	Loss 2.9647e+00 (2.9647e+00)	Acc@1  34.38 ( 34.38)	Acc@5  62.50 ( 62.50)
+ * Acc@1 31.830 Acc@5 58.120
+Adjusting learning rate of group 0 to 9.6892e-02.
+Epoch: [76][ 0/85]	Time  1.229 ( 1.229)	Data  1.162 ( 1.162)	Loss 5.5993e+00 (5.5993e+00)	Acc@1  51.56 ( 51.56)	Acc@5  82.81 ( 82.81)
+Test: [ 0/79]	Time  0.866 ( 0.866)	Loss 3.4107e+00 (3.4107e+00)	Acc@1  32.03 ( 32.03)	Acc@5  56.25 ( 56.25)
+ * Acc@1 31.680 Acc@5 59.580
+Adjusting learning rate of group 0 to 9.5601e-02.
+Epoch: [77][ 0/85]	Time  0.979 ( 0.979)	Data  0.911 ( 0.911)	Loss 5.8515e+00 (5.8515e+00)	Acc@1  54.69 ( 54.69)	Acc@5  80.47 ( 80.47)
+Test: [ 0/79]	Time  1.071 ( 1.071)	Loss 2.9326e+00 (2.9326e+00)	Acc@1  32.03 ( 32.03)	Acc@5  60.16 ( 60.16)
+ * Acc@1 30.520 Acc@5 59.300
+Adjusting learning rate of group 0 to 9.4303e-02.
+Epoch: [78][ 0/85]	Time  0.993 ( 0.993)	Data  0.924 ( 0.924)	Loss 5.7682e+00 (5.7682e+00)	Acc@1  56.25 ( 56.25)	Acc@5  80.47 ( 80.47)
+Test: [ 0/79]	Time  0.866 ( 0.866)	Loss 2.5906e+00 (2.5906e+00)	Acc@1  39.06 ( 39.06)	Acc@5  69.53 ( 69.53)
+ * Acc@1 33.240 Acc@5 62.670
+Adjusting learning rate of group 0 to 9.2999e-02.

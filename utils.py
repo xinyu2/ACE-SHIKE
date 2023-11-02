@@ -67,8 +67,21 @@ def soft_entropy(input, target, reduction='mean'):
     elif reduction == 'sum':
         return torch.sum(torch.sum(res, dim=1))
     else:
-        return
+        return 
 
+def ace1(output_logits, target, mask=None, f0=None): # output is logits
+        probs = F.softmax(output_logits, dim=1) # f(x_i) Bs x K
+        f = f0 - torch.multiply(probs, target).sum(dim=1) # Bs x 1
+        z = torch.zeros_like(f) # 1 x Bs
+        zf = torch.vstack((z, f)) # 2 x Bs
+        h = torch.max(zf , dim=0).values # 1 x Bs
+        tmp = torch.matmul(target, mask.type(dtype=torch.double)).sum(dim=1) 
+        lamdah = 1 + tmp * h #  1 x Bs
+        ce = F.cross_entropy(output_logits, target, reduction='none') # 1 x Bs
+        ace1 = (lamdah * ce)
+        # print(f"in ace1: ace1={ace1.shape}")
+        ace1 = ace1.mean()
+        return ace1
 
 class CosineAnnealingLRWarmup(lr_scheduler._LRScheduler):
     """

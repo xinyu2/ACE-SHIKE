@@ -49,7 +49,13 @@ parser.add_argument('--learning_rate', default=0.05)
 parser.add_argument('--seed', default=123, help='keep all seeds fixed')
 parser.add_argument('--re_train', default=True, help='implement cRT')
 parser.add_argument('--cornerstone', default=180)
+parser.add_argument('--num_classes', default=100, type=int, help='number of classes ')
 parser.add_argument('--num_exps', default=3, help='exps')
+parser.add_argument('--lossfn', default='ori', type=str, help='loss-function (ori, ace)')
+parser.add_argument('--L1', default=0.1, type=float, help='lambda1-of-ace1')
+parser.add_argument('--L2', default=0.4, type=float, help='lambda2-of-ace1')
+parser.add_argument('--L3', default=0.8, type=float, help='lambda3-of-ace1')
+parser.add_argument('--f0', default=0.4, type=float, help='f0-of-ace1')
 parser.add_argument('-e',
                     '--evaluate',
                     dest='evaluate',
@@ -62,10 +68,15 @@ parser.add_argument('-p',
                     metavar='N',
                     help='print frequency (default: 10)')
 args = parser.parse_args()
-
+lam1 = args.L1
+lam2 = args.L2
+lam3 = args.L3
+f0 = args.f0
+lambdas = [lam1, lam2, lam3]
+parmstr = "-".join([str(l) for l in [lam1, lam2, lam3, f0]])
+savename = 'cifar100-if100-' + parmstr
 
 def main():
-
     if not os.path.exists(args.outf):
         os.makedirs(args.outf)
 
@@ -78,7 +89,7 @@ def main():
     num = np.array([int(np.floor(500 * (0.01 ** (i / (100 - 1.0)))))
                    for i in range(100)])
     args.label_dis = num
-
+    ncls = args.num_classes
     train_set = IMBALANCECIFAR100(root='./datasets/data', imb_factor=0.01,
                                   rand_number=0, train=True, transform=data_transforms['advanced_train'])
     train_loader = torch.utils.data.DataLoader(train_set,
@@ -91,7 +102,9 @@ def main():
                                               batch_size=args.batch_size,
                                               shuffle=True,
                                               num_workers=16)
-    print('size of testset_data:{}'.format(test_set.__len__()))
+    cls_num_list=train_set.get_cls_num_list()
+    mask = get_mask(cls_num_list, ncls, lambdas)
+    # print(f"mask={mask[0], mask[50], mask[99]}, size of testset_data:{test_set.__len__()}")
     best_acc1 = .0
 
     model = resnet32(num_classes=100, use_norm=True,
@@ -138,7 +151,7 @@ def main():
 
         # train for one epoch
         train(train_loader if epoch >= args.cornerstone else train_loader, model, scaler,
-              optimizer_crt if epoch >= args.cornerstone else optimizer_feat, epoch, args)
+              optimizer_crt if epoch >= args.cornerstone else optimizer_feat, epoch, mask, f0, args)
 
         # evaluate on validation set
         acc1 = validate(test_loader, model, criterion, epoch, args)
@@ -159,56 +172,73 @@ def main():
                 'architecture': "resnet32",
                 'state_dict': model.state_dict(),
                 'best_acc1': best_acc1,
-            }, is_best, feat=(epoch < args.cornerstone), epochs=args.epochs)
+            }, is_best, feat=(epoch < args.cornerstone), epochs=args.epochs, folder=args.outf, filename=savename)
     print("Training Finished, TotalEPOCH=%d" % args.epochs)
 
+def get_mask(cls_num_list, ncls, lambdas):
+    mask = torch.eye(ncls, dtype=torch.float32, requires_grad=False).cuda()
+    for k in range(ncls):
+        if cls_num_list[k]>=100:
+            mask[k,k] = lambdas[0]
+        elif cls_num_list[k]>=20:
+            mask[k,k] = lambdas[1]
+        else:
+            mask[k,k] = lambdas[2]
+    return mask
 
-def mix_outputs(outputs, labels, balance=False, label_dis=None):
+def mix_outputs(outputs, labels, balance=False, label_dis=None, lossfn='ori', mask=None, f0=None):
     logits_rank = outputs[0].unsqueeze(1)
     for i in range(len(outputs) - 1):
         logits_rank = torch.cat(
             (logits_rank, outputs[i+1].unsqueeze(1)), dim=1)
-
-    max_tea, max_idx = torch.max(logits_rank, dim=1)
+    max_tea, max_idx = torch.max(logits_rank, dim=1) # max-logit of 3 experts
     # min_tea, min_idx = torch.min(logits_rank, dim=1)
-
     non_target_labels = torch.ones_like(labels) - labels
 
     avg_logits = torch.sum(logits_rank, dim=1) / len(outputs)
-    non_target_logits = (-30 * labels) + avg_logits * non_target_labels
+    non_target_logits = (-30 * labels) + avg_logits * non_target_labels # -30 is just some big negative value
 
     _hardest_nt, hn_idx = torch.max(non_target_logits, dim=1)
 
     hardest_idx = torch.zeros_like(labels)
-    hardest_idx.scatter_(1, hn_idx.data.view(-1, 1), 1)
-    hardest_logit = non_target_logits * hardest_idx
+    hardest_idx.scatter_(1, hn_idx.data.view(-1, 1), 1) # one-hot of hardest-negative-sample
+    hardest_logit = non_target_logits * hardest_idx # avg-logit of the hardest class
+    
+    rest_nt_logits = max_tea * (1 - hardest_idx) * (1 - labels) # max-logit for other-wrong-predictions
+    reformed_nt = rest_nt_logits + hardest_logit # max-logit of other-wrong-predictions, avg-logit of hardest-negative-prediction
 
-    rest_nt_logits = max_tea * (1 - hardest_idx) * (1 - labels)
-    reformed_nt = rest_nt_logits + hardest_logit
-
-    preds = [F.softmax(logits) for logits in outputs]
+    preds = [F.softmax(logits) for logits in outputs] # softmax (probability) from 3 experts
 
     reformed_non_targets = []
     for i in range(len(preds)):
         target_preds = preds[i] * labels
 
         target_preds = torch.sum(target_preds, dim=-1, keepdim=True)
-        target_min = -30 * labels
+        target_min = -30 * labels # -30 is just some big negative value
         target_excluded_preds = F.softmax(
-            outputs[i] * (1 - labels) + target_min)
+            outputs[i] * (1 - labels) + target_min) # softmax (probability) of the wrong-predictions
         reformed_non_targets.append(target_excluded_preds)
 
     label_dis = torch.tensor(
         label_dis, dtype=torch.float, requires_grad=False).cuda()
-    label_dis = label_dis.unsqueeze(0).expand(labels.shape[0], -1)
+    label_dis = label_dis.unsqueeze(0).expand(labels.shape[0], -1) # expand to the shape of labels
+    # print(f"label-dis={label_dis}, shape={label_dis.shape} ")
     loss = 0.0
     if balance == True:
         for i in range(len(outputs)):
-            loss += soft_entropy(outputs[i] + label_dis.log(), labels)
+            if lossfn == 'ori':
+                tmp = soft_entropy(outputs[i] + label_dis.log(), labels)
+            else:
+                tmp = ace1(outputs[i] + label_dis.log(), labels, mask=mask, f0=f0)
+            loss += tmp
     else:
         for i in range(len(outputs)):
             # base ce
-            loss += soft_entropy(outputs[i], labels)
+            if lossfn == 'ori':
+                tmp = soft_entropy(outputs[i], labels)
+            else:
+                tmp = ace1(outputs[i], labels, mask=mask, f0=f0)
+            loss += tmp        
             # hardest negative suppression
             loss += 10.0 * \
                 F.kl_div(
@@ -223,7 +253,7 @@ def mix_outputs(outputs, labels, balance=False, label_dis=None):
     return loss, avg_output
 
 
-def train(train_loader, model, scaler, optimizer, epoch, args):
+def train(train_loader, model, scaler, optimizer, epoch, mask, f0, args):
     batch_time = AverageMeter('Time', ':6.3f')
     data_time = AverageMeter('Data', ':6.3f')
     losses = AverageMeter('Loss', ':.4e')
@@ -250,7 +280,7 @@ def train(train_loader, model, scaler, optimizer, epoch, args):
         with autocast():
             outputs = model(images, (epoch >= args.cornerstone))
             loss, output = mix_outputs(outputs=outputs, labels=target, balance=(
-                epoch >= args.cornerstone), label_dis=args.label_dis)
+                epoch >= args.cornerstone), label_dis=args.label_dis, lossfn=args.lossfn, mask=mask, f0=f0)
         _, target = torch.max(target.data, 1)
 
         # measure accuracy and record loss
@@ -315,14 +345,13 @@ def validate(val_loader, model, criterion, epoch, args):
     return top1.avg
 
 
-def save_checkpoint(state, is_best, feat, epochs, filename='cifar100_if100_demo'):
-    torch.save(state, f'ckp_{epochs}_{filename}.pth.tar')
+def save_checkpoint(state, is_best, feat, epochs, folder=None, filename=None):
+    stage1_checkpoint = os.path.join(folder,f'{filename}_stage1.pth.tar')
+    stage2_checkpoint = os.path.join(folder,f'{filename}_stage2.pth.tar')
     if is_best and feat:
-        shutil.copyfile(f'ckp_{epochs}_{filename}.pth.tar',
-                        f'{epochs}_{filename}_stage1.pth.tar')
+        torch.save(state, stage1_checkpoint)
     elif is_best:
-        shutil.copyfile(f'ckp_{epochs}_{filename}.pth.tar',
-                        f'{epochs}_{filename}.pth.tar')
+        torch.save(state, stage2_checkpoint)
 
 
 class AverageMeter(object):
