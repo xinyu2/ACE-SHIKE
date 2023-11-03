@@ -225,6 +225,7 @@ def mix_outputs(outputs, labels, balance=False, label_dis=None, lossfn='ori', ma
     # print(f"label-dis={label_dis}, shape={label_dis.shape} ")
     loss = 0.0
     if balance == True:
+        # lossfn = 'ori' # disable ace1 after epoch 180
         for i in range(len(outputs)):
             if lossfn == 'ori':
                 tmp = soft_entropy(outputs[i] + label_dis.log(), labels)
