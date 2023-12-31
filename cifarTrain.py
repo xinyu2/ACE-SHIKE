@@ -103,6 +103,7 @@ def main():
                                               shuffle=True,
                                               num_workers=16)
     cls_num_list=train_set.get_cls_num_list()
+    print(f"num={num}, cls-num-list:{np.array(cls_num_list)}")
     mask = get_mask(cls_num_list, ncls, lambdas)
     # print(f"mask={mask[0], mask[50], mask[99]}, size of testset_data:{test_set.__len__()}")
     best_acc1 = .0
@@ -196,6 +197,7 @@ def mix_outputs(outputs, labels, balance=False, label_dis=None, lossfn='ori', ma
     non_target_labels = torch.ones_like(labels) - labels
 
     avg_logits = torch.sum(logits_rank, dim=1) / len(outputs)
+    # print(f"outputs={outputs[0].shape}/{len(outputs)} \t labels={labels.shape} \t avg-logits={avg_logits.shape} \t non-target-labels={non_target_labels.shape}")
     non_target_logits = (-30 * labels) + avg_logits * non_target_labels # -30 is just some big negative value
 
     _hardest_nt, hn_idx = torch.max(non_target_logits, dim=1)
@@ -222,7 +224,7 @@ def mix_outputs(outputs, labels, balance=False, label_dis=None, lossfn='ori', ma
     label_dis = torch.tensor(
         label_dis, dtype=torch.float, requires_grad=False).cuda()
     label_dis = label_dis.unsqueeze(0).expand(labels.shape[0], -1) # expand to the shape of labels
-    # print(f"label-dis={label_dis}, shape={label_dis.shape} ")
+    # print(f"outputs.len={len(outputs)}, output={outputs[0]}, label-dis.log={label_dis.log()} ")
     loss = 0.0
     if balance == True:
         # lossfn = 'ori' # disable ace1 after epoch 180
@@ -272,7 +274,8 @@ def train(train_loader, model, scaler, optimizer, epoch, mask, f0, args):
     for i, (images, target) in enumerate(train_loader):
         # measure data loading time
         data_time.update(time.time() - end)
-
+        if i == 0:
+            print(f"target={target.shape}")
         images = images.cuda(non_blocking=True)
         target = target.cuda(non_blocking=True)
 
