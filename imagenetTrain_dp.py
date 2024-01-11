@@ -2,19 +2,18 @@ import argparse
 import datetime
 import os
 from collections import OrderedDict
-# import shutil
-# from tkinter import N
-# from turtle import color
+import numpy as np
 import torch
 import torch.optim as optim
-# import torchvision.datasets as datasets
 import torchvision.transforms as transforms
 import torch.nn.functional as F
 from torch.cuda.amp import autocast as autocast, GradScaler
+
 from autoaugment import CIFAR10Policy, ImageNetPolicy, Cutout
 from datasets.dataset_lt_data import LT_Dataset
-from networks import ResNet50_MoE  # resnet50
+from networks import ResNet50_MoE
 from utils import *
+
 
 # data transform settings
 normalize = transforms.Normalize(
@@ -52,44 +51,15 @@ data_transforms = {
     ])
 }
 
-parser = argparse.ArgumentParser(description='PyTorch ImageNet-LT Training')
-parser.add_argument('--resume', default=None, type=str, help='path to latest checkpoint (default: none)')
-parser.add_argument('--outf', default='./outputs/', help='folder to output images and model checkpoints')
-parser.add_argument('--pre_epoch', default=0, help='epoch for pre-training')
-parser.add_argument('--epochs', default=200, help='epoch for augmented training')
-parser.add_argument('--batch_size', default=128)
-parser.add_argument('--learning_rate', type=float, default=0.2)
-parser.add_argument('--seed', default=123, help='keep all seeds fixed')
-parser.add_argument('--re_train', default=True, help='implement cRT')
-parser.add_argument('--cornerstone', default=180)
-parser.add_argument('--num_classes', default=1000, type=int, help='number of classes ')
-parser.add_argument('--num_exps', default=3, type=int, help='number of experts')
-parser.add_argument('--lossfn', default='ori', type=str, help='loss-function (ori, ace)')
-parser.add_argument('--L1', default=0.1, type=float, help='lambda1-of-ace1')
-parser.add_argument('--L2', default=0.1, type=float, help='lambda2-of-ace1')
-parser.add_argument('--L3', default=0.1, type=float, help='lambda3-of-ace1')
-parser.add_argument('--f0', default=0.1, type=float, help='f0-of-ace1')
-parser.add_argument('-e',
-                    '--evaluate',
-                    dest='evaluate',
-                    action='store_true',
-                    help='evaluate model on validation set')
-parser.add_argument('-p',
-                    '--print-freq',
-                    default=100,
-                    type=int,
-                    metavar='N',
-                    help='print frequency (default: 10)')
-args = parser.parse_args()
-lam1 = args.L1
-lam2 = args.L2
-lam3 = args.L3
-f0 = args.f0
-lambdas = [lam1, lam2, lam3]
-parmstr = "-".join([str(l) for l in [lam1, lam2, lam3, f0]])
-savename = 'ImageNet-LT-' + parmstr
 
-def main():
+def main(args):
+    lam1 = args.L1
+    lam2 = args.L2
+    lam3 = args.L3
+    f0 = args.f0
+    lambdas = [lam1, lam2, lam3]
+    parmstr = "-".join([str(l) for l in [lam1, lam2, lam3, f0]])
+    savename = 'ImageNet-LT-' + parmstr
     if not os.path.exists(args.outf):
         os.makedirs(args.outf)
 
@@ -99,8 +69,7 @@ def main():
 
     # imbalance distribution
     # img_max * (imb_factor ** (cls_idx / (cls_num - 1.0)))
-    ncls = args.num_classes
-    
+    ncls = args.num_classes    
     
     dataroot = './datasets/data'
     dir_train_txt = os.path.join(dataroot, 'data_txt', 'ImageNet_LT_train.txt')
@@ -110,9 +79,10 @@ def main():
     test_set = LT_Dataset(lt_root, dir_test_txt, data_transforms['test'])
 
     train_loader = torch.utils.data.DataLoader(train_set,
-                                               batch_size=args.batch_size,
-                                               shuffle=True,
-                                               num_workers=16)
+                                                batch_size=args.batch_size,
+                                                shuffle=True,
+                                                num_workers=16)
+    # shuffle=True, num_workers=16)
     test_loader = torch.utils.data.DataLoader(test_set,
                                               batch_size=args.batch_size,
                                               shuffle=True,
@@ -125,8 +95,8 @@ def main():
     # print(f"mask={mask[0], mask[50], mask[99]}, size of testset_data:{test_set.__len__()}")
     best_acc1 = .0
 
-    # model = resnet50(num_classes=ncls, use_norm=True, num_exps=args.num_exps).to(device)
-    model = ResNet50_MoE()
+    model = ResNet50_MoE().to(device)
+    model = torch.nn.DataParallel(model)
     # optimizers and schedulers for decoupled training
     optimizer_feat = optim.SGD(
         model.parameters(), lr=args.learning_rate, momentum=0.9, weight_decay=5e-4)
@@ -134,17 +104,17 @@ def main():
         model.parameters(), lr=args.learning_rate, momentum=0.9, weight_decay=5e-4)
     scheduler_feat = CosineAnnealingLRWarmup(
         optimizer=optimizer_feat,
-        T_max=args.epochs - 20,
+        T_max=args.epochs - 5,
         eta_min=0.0,
-        warmup_epochs=5,
+        warmup_epochs=2,
         base_lr=args.learning_rate,
         warmup_lr=0.15
     )
     scheduler_crt = CosineAnnealingLRWarmup(
         optimizer=optimizer_crt,
-        T_max=20,
+        T_max=5,
         eta_min=0.0,
-        warmup_epochs=5,
+        warmup_epochs=2,
         base_lr=args.learning_rate,
         warmup_lr=0.1
     )
@@ -154,7 +124,7 @@ def main():
     if args.resume:
         if os.path.isfile(args.resume):
             print("=> loading checkpoint '{}'".format(args.resume))
-            checkpoint = torch.load(args.resume, map_location='cuda:0')
+            checkpoint = torch.load(args.resume, map_location=f'cuda:0')
             start_epoch = checkpoint['epoch']
             best_acc1 = checkpoint['best_acc1']
             # model.load_state_dict(checkpoint['state_dict'])
@@ -172,7 +142,6 @@ def main():
         else:
             print("=> no checkpoint found at '{}'".format(args.resume))
 
-    model = model.to(device)        
     criterion = nn.CrossEntropyLoss().cuda()
 
     if args.evaluate:
@@ -222,7 +191,7 @@ def main():
         if epoch >= args.cornerstone:
             tmp_optimizer = optimizer_crt
         else:
-            tmp_optimizer = optimizer_feat    
+            tmp_optimizer = optimizer_feat
         save_checkpoint(
             {
                 'epoch': epoch + 1,
@@ -232,6 +201,7 @@ def main():
                 'best_acc1': best_acc1,
             }, is_best, feat=(epoch < args.cornerstone), epochs=args.epochs, folder=args.outf, filename=savename)
     print("Training Finished, TotalEPOCH=%d" % args.epochs)
+
 
 def get_mask(cls_num_list, ncls, lambdas):
     mask = torch.eye(ncls, dtype=torch.float32, requires_grad=False).cuda()
@@ -243,6 +213,7 @@ def get_mask(cls_num_list, ncls, lambdas):
         else:
             mask[k,k] = lambdas[2]
     return mask
+
 
 def mix_outputs(outputs, labels, balance=False, label_dis=None, lossfn='ori', mask=None, f0=None):
     logits_rank = outputs[0].unsqueeze(1)
@@ -291,6 +262,7 @@ def mix_outputs(outputs, labels, balance=False, label_dis=None, lossfn='ori', ma
             else:
                 tmp = ace1(outputs[i] + label_dis.log(), labels, mask=mask, f0=f0)
             loss += tmp
+        # print(f"loss={loss}, tmp={tmp} ")    
     else:
         for i in range(len(outputs)):
             # base ce
@@ -332,8 +304,6 @@ def train(train_loader, model, scaler, optimizer, epoch, mask, f0, args):
         # measure data loading time
         data_time.update(time.time() - end)
         target = F.one_hot(target, num_classes=args.num_classes)
-        # if i == 0:
-        #     print(f"target={target.shape}, {target}")
         images = images.cuda(non_blocking=True)
         target = target.cuda(non_blocking=True)
 
@@ -351,11 +321,9 @@ def train(train_loader, model, scaler, optimizer, epoch, mask, f0, args):
         losses.update(loss.item(), images.size(0))
         top1.update(acc1.item(), images.size(0))
         top5.update(acc5.item(), images.size(0))
-
         scaler.scale(loss).backward()
         scaler.step(optimizer)
         scaler.update()
-        
         # measure elapsed time
         batch_time.update(time.time() - end)
         end = time.time()
@@ -381,8 +349,6 @@ def validate(val_loader, model, criterion, epoch, args):
             images = images.cuda(non_blocking=True)
             target = target.cuda(non_blocking=True)
 
-            if i == 0:
-                print(f"images={images.shape}, {images.dtype}")
             # compute output
             outputs = model(images, (epoch >= args.cornerstone))
             output = sum(outputs) / len(outputs)
@@ -480,6 +446,35 @@ def accuracy(output, target, topk=(1, )):
 
 if __name__ == '__main__':
     clock_start = datetime.datetime.now()
-    main()
+    parser = argparse.ArgumentParser(description='PyTorch ImageNet-LT Training')
+    parser.add_argument('--resume', default=None, type=str, help='path to latest checkpoint (default: none)')
+    parser.add_argument('--outf', default='./outputs/', help='folder to output images and model checkpoints')
+    parser.add_argument('--pre_epoch', default=0, help='epoch for pre-training')
+    parser.add_argument('--epochs', default=10, help='epoch for augmented training')
+    parser.add_argument('--batch_size', default=128)
+    parser.add_argument('--learning_rate', default=0.1)  # lr=0.2 for ImageNet-LT will explode
+    parser.add_argument('--seed', default=123, help='keep all seeds fixed')
+    parser.add_argument('--re_train', default=True, help='implement cRT')
+    parser.add_argument('--cornerstone', default=50)
+    parser.add_argument('--num_classes', default=1000, type=int, help='number of classes ')
+    parser.add_argument('--num_exps', default=3, type=int, help='number of experts')
+    parser.add_argument('--lossfn', default='ori', type=str, help='loss-function (ori, ace)')
+    parser.add_argument('--L1', default=0.1, type=float, help='lambda1-of-ace1')
+    parser.add_argument('--L2', default=0.4, type=float, help='lambda2-of-ace1')
+    parser.add_argument('--L3', default=0.8, type=float, help='lambda3-of-ace1')
+    parser.add_argument('--f0', default=0.4, type=float, help='f0-of-ace1')
+    parser.add_argument('-e',
+                        '--evaluate',
+                        dest='evaluate',
+                        action='store_true',
+                        help='evaluate model on validation set')
+    parser.add_argument('-p',
+                        '--print-freq',
+                        default=100,
+                        type=int,
+                        metavar='N',
+                        help='print frequency (default: 10)')
+    args = parser.parse_args()
+    main(args)
     clock_end = datetime.datetime.now()
     print(clock_end - clock_start)

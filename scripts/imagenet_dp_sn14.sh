@@ -15,4 +15,6 @@ cd $myenv/ACE-SHIKE
 # ===============
 #  Step1
 # ===============
-time python imagenetTrain_resume.py --lossfn=ori --learning_rate=0.2 --L1=0.0 --L2=0.0 --L3=0.0 --f0=0.0 >> logs/imagenet-sn14-baseline-lr02.log
+time python imagenetTrain_dp.py --lossfn=ori --L1=0.0 --L2=0.0 --L3=0.0 --f0=0.0 >> logs/imagenet-dp-sn14-baseline10.log 
+#--resume=$myenv/ACE-SHIKE/outputs/ImageNet-LT-0.0-0.0-0.0-0.0_stage1.pth.tar \
+#>> logs/imagenet-dp-sn14-baseline.log
